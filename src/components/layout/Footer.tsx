@@ -5,18 +5,19 @@ import { Logo } from "@/components/layout/Logo";
 import { navLinks, site } from "@/data/site";
 import { services } from "@/data/services";
 
-export function Footer() {
+import { getI18n } from "@/i18n/server";
+
+export async function Footer() {
+  const { tr, href } = await getI18n();
   const year = new Date().getFullYear();
 
   return (
     <footer className="border-t-8 border-brand-500 bg-ink-950 text-ink-300">
       <Container className="grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
         <div>
-          <Logo light />
+          <Logo light tr={tr} href={href("/")} />
           <p className="mt-5 max-w-sm text-sm leading-relaxed">
-            {site.slogan} სამშენებლო კომპანია {site.cityIn} — ვიღებთ პასუხისმგებლობას
-            პროექტის სრულ ან ნაწილობრივ განხორციელებაზე და საჭიროების მიხედვით
-            ვაერთიანებთ შესაბამის სპეციალისტებს.
+            {tr(site.slogan)}{tr("სამშენებლო კომპანია")} {tr(site.cityIn)} {tr("— ვიღებთ პასუხისმგებლობას პროექტის სრულ ან ნაწილობრივ განხორციელებაზე და საჭიროების მიხედვით ვაერთიანებთ შესაბამის სპეციალისტებს.")}
           </p>
           <ul className="mt-5 flex gap-4 text-sm">
             {site.social.map((s) => (
@@ -36,13 +37,13 @@ export function Footer() {
 
         <div>
           <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-400">
-            ნავიგაცია
+            {tr("ნავიგაცია")}
           </h3>
           <ul className="mt-4 space-y-2 text-sm">
             {navLinks.map((l) => (
               <li key={l.href}>
-                <Link href={l.href} className="hover:text-white">
-                  {l.label}
+                <Link href={href(l.href)} className="hover:text-white">
+                  {tr(l.label)}
                 </Link>
               </li>
             ))}
@@ -51,13 +52,13 @@ export function Footer() {
 
         <div>
           <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-400">
-            სერვისები
+            {tr("სერვისები")}
           </h3>
           <ul className="mt-4 space-y-2 text-sm">
             {services.map((s) => (
               <li key={s.slug}>
-                <Link href={`/services/${s.slug}`} className="hover:text-white">
-                  {s.shortTitle}
+                <Link href={href(`/services/${s.slug}`)} className="hover:text-white">
+                  {tr(s.shortTitle)}
                 </Link>
               </li>
             ))}
@@ -66,7 +67,7 @@ export function Footer() {
 
         <div>
           <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-400">
-            კონტაქტი
+            {tr("კონტაქტი")}
           </h3>
           <ul className="mt-4 space-y-3 text-sm">
             <li>
@@ -83,11 +84,11 @@ export function Footer() {
             </li>
             <li className="flex items-start gap-3">
               <MapPin className="mt-0.5 size-4 shrink-0 text-brand-500" aria-hidden="true" />
-              {site.address}
+              {tr(site.address)}
             </li>
             <li className="flex items-start gap-3">
               <Clock className="mt-0.5 size-4 shrink-0 text-brand-500" aria-hidden="true" />
-              {site.hours}
+              {tr(site.hours)}
             </li>
           </ul>
         </div>
@@ -105,7 +106,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <Container className="flex flex-col gap-2 py-6 text-xs text-ink-500 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {year} {site.name}. ყველა უფლება დაცულია.
+            © {year} {site.name}{tr(". ყველა უფლება დაცულია.")}
           </p>
           <p className="font-brand text-sm uppercase tracking-[0.2em] text-ink-400">
             Renovate your house

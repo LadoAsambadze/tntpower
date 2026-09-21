@@ -4,8 +4,11 @@ import { Button } from "@/components/ui/Button";
 import { BrandCircles } from "@/components/brand/BrandCircles";
 import { site } from "@/data/site";
 
+import { getI18n } from "@/i18n/server";
+
 /** ბოლო მოწოდება — ერთი კითხვა, ერთი წინადადება, სამი გზა დასაკავშირებლად */
-export function CtaBanner() {
+export async function CtaBanner() {
+  const { tr, href } = await getI18n();
   return (
     <section className="relative overflow-hidden bg-brand-500 py-14 text-ink-950 sm:py-16 lg:py-24">
       <BrandCircles className="absolute -top-32 -right-24 w-[34rem] text-ink-950/10" />
@@ -15,17 +18,16 @@ export function CtaBanner() {
             Ready to renovate?
           </p>
           <h2 className="font-display mt-4 text-3xl font-semibold leading-tight sm:text-4xl lg:text-[2.75rem]">
-            გეგმავთ მშენებლობას ან რემონტს?
+            {tr("გეგმავთ მშენებლობას ან რემონტს?")}
           </h2>
           <p className="mt-4 max-w-xl text-base text-ink-900 sm:text-lg">
-            ერთი სამუშაო ან სრული პროექტი — დაგვიკავშირდით, ვნახავთ ობიექტს და მოვამზადებთ
-            ხარჯთაღრიცხვას.
+            {tr("ერთი სამუშაო ან სრული პროექტი — დაგვიკავშირდით, ვნახავთ ობიექტს და მოვამზადებთ ხარჯთაღრიცხვას.")}
           </p>
         </div>
 
         <div className="rounded-2xl bg-ink-950 p-5 text-white shadow-2xl shadow-ink-950/30 sm:p-7">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-400">
-            დაგვიკავშირდით
+            {tr("დაგვიკავშირდით")}
           </p>
           <div className="mt-4 grid gap-2 sm:grid-cols-2">
             <Button href={site.phoneHref} variant="primary" size="lg">
@@ -36,11 +38,11 @@ export function CtaBanner() {
               <MessageCircle className="size-5 text-[#25D366]" aria-hidden="true" />
               WhatsApp
             </Button>
-            <Button href="/contact" variant="light" size="lg" className="sm:col-span-2">
-              ფორმის შევსება
+            <Button href={href("/contact")} variant="light" size="lg" className="sm:col-span-2">
+              {tr("ფორმის შევსება")}
             </Button>
           </div>
-          <p className="mt-4 text-center text-xs text-ink-400">{site.hours}</p>
+          <p className="mt-4 text-center text-xs text-ink-400">{tr(site.hours)}</p>
         </div>
       </Container>
     </section>

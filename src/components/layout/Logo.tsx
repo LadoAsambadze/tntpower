@@ -5,15 +5,24 @@ interface LogoProps {
   light?: boolean;
   className?: string;
   size?: "sm" | "md";
+  /** localised home link and translator, passed by the caller (Logo renders on server and client) */
+  href?: string;
+  tr?: (source: string) => string;
 }
 
 /** ბრენდის ვორდმარკი: TNT POWER (bold italic) + RENOVATE YOUR HOUSE (თხელი სერიფი) */
-export function Logo({ light = false, className, size = "md" }: LogoProps) {
+export function Logo({
+  light = false,
+  className,
+  size = "md",
+  href = "/",
+  tr = (source) => source,
+}: LogoProps) {
   return (
     <Link
-      href="/"
+      href={href}
       className={cn("inline-flex flex-col leading-none", className)}
-      aria-label="TNT POWER — მთავარი გვერდი"
+      aria-label={tr("TNT POWER — მთავარი გვერდი")}
     >
       <span
         className={cn(

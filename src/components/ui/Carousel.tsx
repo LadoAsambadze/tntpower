@@ -11,6 +11,7 @@ import {
 } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/cn";
+import { useI18n } from "@/i18n/client";
 
 interface CarouselProps {
   children: ReactNode;
@@ -64,6 +65,7 @@ export function Carousel({
   className,
   itemClassName,
 }: CarouselProps) {
+  const { tr } = useI18n();
   const trackRef = useRef<HTMLDivElement>(null);
   const stopsRef = useRef<number[]>([]);
   // null — ჯერ არ გაზომილა (SSR); [] — არ სქროლდება; [..] — გაჩერების წერტილები
@@ -165,7 +167,7 @@ export function Carousel({
                 key={i}
                 type="button"
                 onClick={() => scrollToStop(i)}
-                aria-label={`სლაიდი ${i + 1}`}
+                aria-label={`${tr("სლაიდი ")}${i + 1}`}
                 aria-current={i === index ? "true" : undefined}
                 className="flex h-8 items-center px-0.5"
               >
@@ -187,7 +189,7 @@ export function Carousel({
               type="button"
               onClick={() => scrollToStop(index - 1)}
               disabled={atStart}
-              aria-label="წინა"
+              aria-label={tr("წინა")}
               className={arrow}
             >
               <ChevronLeft className="size-5" aria-hidden="true" />
@@ -196,7 +198,7 @@ export function Carousel({
               type="button"
               onClick={() => scrollToStop(index + 1)}
               disabled={atEnd}
-              aria-label="შემდეგი"
+              aria-label={tr("შემდეგი")}
               className={arrow}
             >
               <ChevronRight className="size-5" aria-hidden="true" />

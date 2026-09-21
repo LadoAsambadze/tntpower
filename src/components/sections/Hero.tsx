@@ -6,11 +6,14 @@ import { BrandCircles } from "@/components/brand/BrandCircles";
 import { HeroVideo } from "@/components/brand/HeroVideo";
 import { site } from "@/data/site";
 
+import { getI18n } from "@/i18n/server";
+
 /**
  * მთავარი Hero — მინიმალური: ტაგლაინი, სათაური, ერთი წინადადება, ორი მოქმედება.
  * დეტალები (რას ვიღებთ ჩვენზე, პროცესი, უპირატესობები) ქვემოთ, საკუთარ სექციებშია.
  */
-export function Hero() {
+export async function Hero() {
+  const { tr, href } = await getI18n();
   return (
     <section className="relative flex min-h-[72svh] items-center overflow-hidden bg-ink-950 text-white lg:min-h-[min(calc(100svh-4.875rem),52rem)]">
       {/* ფონი: poster-ფოტო ყველგან, ვიდეო — დესკტოპზე */}
@@ -43,18 +46,17 @@ export function Hero() {
             TNT POWER · Renovate your house
           </p>
           <h1 className="font-display mt-5 text-4xl font-semibold leading-[1.06] tracking-tight sm:text-5xl lg:text-[4rem]">
-            ერთი კომპანია —
+            {tr("ერთი კომპანია —")}
             <br />
-            <span className="text-brand-500">სრული პასუხისმგებლობა.</span>
+            <span className="text-brand-500">{tr("სრული პასუხისმგებლობა.")}</span>
           </h1>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-ink-200 sm:text-lg">
-            რემონტი, მშენებლობა, ელექტროობა და სანტექნიკა — ერთი ჯგუფი და ერთი
-            პასუხისმგებელი პირი {site.cityIn}.
+            {tr("რემონტი, მშენებლობა, ელექტროობა და სანტექნიკა — ერთი ჯგუფი და ერთი პასუხისმგებელი პირი")} {tr(site.cityIn)}.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Button href="/contact" size="lg">
-              მოითხოვეთ შეფასება
+            <Button href={href("/contact")} size="lg">
+              {tr("მოითხოვეთ შეფასება")}
               <ArrowRight className="size-5 shrink-0" aria-hidden="true" />
             </Button>
             <Button href={site.phoneHref} size="lg" variant="ghost">

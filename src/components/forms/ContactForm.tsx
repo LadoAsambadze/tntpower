@@ -3,9 +3,10 @@
 import { useActionState } from "react";
 import { CheckCircle2, AlertCircle, Send } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { submitContact } from "@/app/contact/actions";
+import { submitContact } from "@/actions/contact";
 import { initialContactState, type ContactField } from "@/lib/contact";
 import { cn } from "@/lib/cn";
+import { useI18n } from "@/i18n/client";
 
 interface ServiceOption {
   slug: string;
@@ -22,6 +23,7 @@ const inputBase =
   "w-full rounded-md border bg-white px-4 py-3 text-ink-950 placeholder:text-ink-400 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-ink-950";
 
 export function ContactForm({ services, defaultService }: ContactFormProps) {
+  const { tr, locale } = useI18n();
   const [state, formAction, pending] = useActionState(submitContact, initialContactState);
 
   const errorFor = (name: ContactField) => state.errors?.[name];
@@ -35,7 +37,7 @@ export function ContactForm({ services, defaultService }: ContactFormProps) {
         className="flex flex-col items-center rounded-2xl border border-green-200 bg-green-50 p-8 text-center"
       >
         <CheckCircle2 className="size-12 text-green-600" aria-hidden="true" />
-        <h3 className="mt-4 text-xl font-bold text-ink-900">განაცხადი გაგზავნილია</h3>
+        <h3 className="mt-4 text-xl font-bold text-ink-900">{tr("განაცხადი გაგზავნილია")}</h3>
         <p className="mt-2 text-ink-600">{state.message}</p>
       </div>
     );
@@ -43,6 +45,8 @@ export function ContactForm({ services, defaultService }: ContactFormProps) {
 
   return (
     <form action={formAction} noValidate className="space-y-5">
+      {/* tells the Server Action which language to answer in */}
+      <input type="hidden" name="locale" value={locale} />
       {state.status === "error" && state.message && (
         <p
           role="alert"
@@ -55,24 +59,24 @@ export function ContactForm({ services, defaultService }: ContactFormProps) {
 
       {/* Honeypot — მომხმარებლისთვის უხილავი */}
       <div className="absolute -left-[9999px]" aria-hidden="true">
-        <label htmlFor="company">კომპანია</label>
+        <label htmlFor="company">{tr("კომპანია")}</label>
         <input id="company" name="company" type="text" tabIndex={-1} autoComplete="off" />
       </div>
 
       <div className="grid gap-5 sm:grid-cols-2">
-        <Field label="სახელი *" htmlFor="name" error={errorFor("name")}>
+        <Field label={tr("სახელი *")} htmlFor="name" error={errorFor("name")}>
           <input
             id="name"
             name="name"
             type="text"
             required
             autoComplete="name"
-            placeholder="თქვენი სახელი"
+            placeholder={tr("თქვენი სახელი")}
             className={inputClass("name")}
             aria-invalid={Boolean(errorFor("name"))}
           />
         </Field>
-        <Field label="ტელეფონი *" htmlFor="phone" error={errorFor("phone")}>
+        <Field label={tr("ტელეფონი *")} htmlFor="phone" error={errorFor("phone")}>
           <input
             id="phone"
             name="phone"
@@ -87,14 +91,14 @@ export function ContactForm({ services, defaultService }: ContactFormProps) {
       </div>
 
       <div className="grid gap-5 sm:grid-cols-2">
-        <Field label="სერვისი" htmlFor="service" error={errorFor("service")}>
+        <Field label={tr("სერვისი")} htmlFor="service" error={errorFor("service")}>
           <select
             id="service"
             name="service"
             defaultValue={defaultService ?? ""}
             className={inputClass("service")}
           >
-            <option value="">— აირჩიეთ —</option>
+            <option value="">{tr("— აირჩიეთ —")}</option>
             {services.map((s) => (
               <option key={s.slug} value={s.slug}>
                 {s.title}
@@ -102,25 +106,25 @@ export function ContactForm({ services, defaultService }: ContactFormProps) {
             ))}
           </select>
         </Field>
-        <Field label="ობიექტის მისამართი" htmlFor="address" error={errorFor("address")}>
+        <Field label={tr("ობიექტის მისამართი")} htmlFor="address" error={errorFor("address")}>
           <input
             id="address"
             name="address"
             type="text"
             autoComplete="street-address"
-            placeholder="ბათუმი, ქუჩა / უბანი"
+            placeholder={tr("ბათუმი, ქუჩა / უბანი")}
             className={inputClass("address")}
           />
         </Field>
       </div>
 
-      <Field label="აღწერეთ სამუშაო *" htmlFor="message" error={errorFor("message")}>
+      <Field label={tr("აღწერეთ სამუშაო *")} htmlFor="message" error={errorFor("message")}>
         <textarea
           id="message"
           name="message"
           required
           rows={5}
-          placeholder="მაგ.: 60 მ² ბინა, სრული რემონტი, ელექტროობა და სანტექნიკა შესაცვლელია…"
+          placeholder={tr("მაგ.: 60 მ² ბინა, სრული რემონტი, ელექტროობა და სანტექნიკა შესაცვლელია…")}
           className={cn(inputClass("message"), "resize-y")}
           aria-invalid={Boolean(errorFor("message"))}
         />
@@ -128,11 +132,11 @@ export function ContactForm({ services, defaultService }: ContactFormProps) {
 
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-xs text-ink-500">
-          გაგზავნით თანხმობას აცხადებთ, რომ დაგიკავშირდეთ მითითებულ ნომერზე.
+          {tr("გაგზავნით თანხმობას აცხადებთ, რომ დაგიკავშირდეთ მითითებულ ნომერზე.")}
         </p>
         <Button type="submit" size="lg" disabled={pending} className="sm:shrink-0">
           <Send className="size-4" aria-hidden="true" />
-          {pending ? "იგზავნება…" : "განაცხადის გაგზავნა"}
+          {pending ? tr("იგზავნება…") : tr("განაცხადის გაგზავნა")}
         </Button>
       </div>
     </form>

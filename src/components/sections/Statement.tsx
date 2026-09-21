@@ -1,11 +1,13 @@
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/brand/Reveal";
+import { getI18n } from "@/i18n/server";
 
 /**
  * ბრენდის „მანიფესტი" — ერთი დიდი სერიფული წინადადება თხელ ხაზებს შორის.
  * ჰერო-ს შემდეგ, სანამ სერვისებზე გადავიდოდეთ.
  */
-export function Statement() {
+export async function Statement() {
+  const { tr } = await getI18n();
   return (
     <section className="border-b border-ink-200 bg-paper">
       <Container className="py-14 sm:py-16 lg:py-20">
@@ -14,9 +16,8 @@ export function Statement() {
             Renovate your house
           </p>
           <p className="font-display mt-5 text-2xl leading-[1.3] text-ink-950 sm:text-3xl lg:text-[2.5rem]">
-            ჩვენ არ ვყიდით მხოლოდ ელექტროობას, რემონტს ან სანტექნიკას. ვყიდით{" "}
-            <mark className="bg-brand-300 px-1.5 text-ink-950">სიმშვიდეს</mark>, ორგანიზებულ
-            პროცესს და ერთ პასუხისმგებელ კომპანიას.
+            {tr("ჩვენ არ ვყიდით მხოლოდ ელექტროობას, რემონტს ან სანტექნიკას. ვყიდით")}{" "}
+            <mark className="bg-brand-300 px-1.5 text-ink-950">{tr("სიმშვიდეს")}</mark>{tr(", ორგანიზებულ პროცესს და ერთ პასუხისმგებელ კომპანიას.")}
           </p>
           <span className="mx-auto mt-7 block h-0.5 w-12 bg-brand-500" aria-hidden="true" />
         </Reveal>

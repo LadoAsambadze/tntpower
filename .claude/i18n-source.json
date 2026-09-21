@@ -1,0 +1,4018 @@
+[
+ {
+  "id": 1,
+  "text": "მადლობა! თქვენი განაცხადი მიღებულია.",
+  "client": false,
+  "files": [
+   "src/actions/contact.ts"
+  ]
+ },
+ {
+  "id": 2,
+  "text": "მიუთითეთ თქვენი სახელი.",
+  "client": false,
+  "files": [
+   "src/actions/contact.ts"
+  ]
+ },
+ {
+  "id": 3,
+  "text": "მიუთითეთ სწორი ტელეფონის ნომერი.",
+  "client": false,
+  "files": [
+   "src/actions/contact.ts"
+  ]
+ },
+ {
+  "id": 4,
+  "text": "აირჩიეთ სერვისი სიიდან.",
+  "client": false,
+  "files": [
+   "src/actions/contact.ts"
+  ]
+ },
+ {
+  "id": 5,
+  "text": "მოკლედ აღწერეთ სამუშაო (მინიმუმ 10 სიმბოლო).",
+  "client": false,
+  "files": [
+   "src/actions/contact.ts"
+  ]
+ },
+ {
+  "id": 6,
+  "text": "გთხოვთ, შეასწოროთ მონიშნული ველები.",
+  "client": false,
+  "files": [
+   "src/actions/contact.ts"
+  ]
+ },
+ {
+  "id": 7,
+  "text": "[contact] ახალი განაცხადი ",
+  "client": false,
+  "files": [
+   "src/actions/contact.ts"
+  ]
+ },
+ {
+  "id": 8,
+  "text": "მადლობა! თქვენი განაცხადი მიღებულია — მალე დაგიკავშირდებით.",
+  "client": false,
+  "files": [
+   "src/actions/contact.ts"
+  ]
+ },
+ {
+  "id": 9,
+  "text": "ჩვენ შესახებ",
+  "client": true,
+  "files": [
+   "src/app/[lang]/about/page.tsx",
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 10,
+  "text": "TNT POWER = ერთი პასუხისმგებელი მხარე",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 11,
+  "text": "TNT POWER არის სამშენებლო კომპანია, რომელიც იღებს პასუხისმგებლობას თქვენი პროექტის სრულ ან ნაწილობრივ განხორციელებაზე. თქვენ არ გჭირდებათ სხვადასხვა ხელოსნის, ელექტრიკოსის, სანტექნიკოსისა და მღებავის ცალ-ცალკე მოძებნა და მართვა — გყავთ ერთი პასუხისმგებელი კომპანია.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 12,
+  "text": "ჩვენი მიდგომა",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 13,
+  "text": "ვიღებთ პასუხისმგებლობას შედეგზე",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 14,
+  "text": "ჩვენ ვიღებთ პასუხისმგებლობას სამშენებლო პროექტის განხორციელებაზე და საჭიროების მიხედვით ვაერთიანებთ შესაბამის სპეციალისტებს — ელექტრიკოსს, სანტექნიკოსს, მღებავს, ფილების ოსტატს, მშენებელს.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 15,
+  "text": "მომხმარებელს შეუძლია მოგვმართოს ერთი კონკრეტული პრობლემით ან სრული პროექტით: იდეა → დაგეგმვა → ხარჯთაღრიცხვა → მასალების შეძენა → სამუშაოების ორგანიზება → შესრულება → ჩაბარება.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 16,
+  "text": "ჩვენ არ ვყიდით მხოლოდ ელექტროობას, რემონტს, სანტექნიკას. ჩვენ ვყიდით სიმშვიდეს, ორგანიზებულ პროცესს და ერთ პასუხისმგებელ კომპანიას.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 17,
+  "text": "ყველაფერი იდეიდან იწყება — TNT POWER",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx",
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 18,
+  "text": "რისი აღება შეგვიძლია",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 19,
+  "text": "მთავარი დაპირება",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 20,
+  "text": "მომხმარებელი გვიკავშირდება. ჩვენ:",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 21,
+  "text": "ჩვენი სლოგანი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 22,
+  "text": "დაგვიკავშირდით",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx",
+   "src/components/sections/CtaBanner.tsx"
+  ]
+ },
+ {
+  "id": 23,
+  "text": "სერვისები",
+  "client": true,
+  "files": [
+   "src/app/[lang]/about/page.tsx",
+   "src/app/[lang]/not-found.tsx",
+   "src/app/[lang]/page.tsx",
+   "src/app/[lang]/services/page.tsx",
+   "src/app/[lang]/services/[slug]/page.tsx",
+   "src/components/layout/Footer.tsx",
+   "src/components/sections/ServicesGrid.tsx",
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 24,
+  "text": "კონტაქტი",
+  "client": true,
+  "files": [
+   "src/app/[lang]/contact/page.tsx",
+   "src/components/layout/Footer.tsx",
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 25,
+  "text": "ტელეფონი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 26,
+  "text": "მოგვწერეთ ფოტოთი და აღწერით",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 27,
+  "text": "ელფოსტა",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 28,
+  "text": "სამუშაო არეალი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 29,
+  "text": "სამუშაო საათები",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 30,
+  "text": "დაგვიკავშირდით კონსულტაციისა და ობიექტის შეფასებისთვის",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 31,
+  "text": "აღწერეთ სამუშაო რამდენიმე წინადადებით — ჩვენ დაგიკავშირდებით, შევათანხმებთ ობიექტის დათვალიერების დროს და მოვამზადებთ ხარჯთაღრიცხვას.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 32,
+  "text": "საკონტაქტო ინფორმაცია",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 33,
+  "text": "რა ხდება განაცხადის შემდეგ?",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 34,
+  "text": "დაგიკავშირდებით სამუშაო დღეს რამდენიმე საათში.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 35,
+  "text": "შევათანხმებთ ობიექტის დათვალიერების დროს.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 36,
+  "text": "მოვამზადებთ ხარჯთაღრიცხვას და სამუშაოების გეგმას.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 37,
+  "text": "ვიწყებთ სამუშაოს შეთანხმებულ ვადაში.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 38,
+  "text": "გამოგზავნეთ განაცხადი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 39,
+  "text": "ველები ვარსკვლავით (*) სავალდებულოა.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 40,
+  "text": "რემონტი ბათუმში",
+  "client": false,
+  "files": [
+   "src/app/[lang]/layout.tsx"
+  ]
+ },
+ {
+  "id": 41,
+  "text": "სამშენებლო კომპანია ბათუმი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/layout.tsx"
+  ]
+ },
+ {
+  "id": 42,
+  "text": "ბინის რემონტი",
+  "client": true,
+  "files": [
+   "src/app/[lang]/layout.tsx",
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 43,
+  "text": "ელექტრიკოსი ბათუმი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/layout.tsx"
+  ]
+ },
+ {
+  "id": 44,
+  "text": "სანტექნიკოსი ბათუმი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/layout.tsx"
+  ]
+ },
+ {
+  "id": 45,
+  "text": "ნაგვის გატანა ბათუმი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/layout.tsx"
+  ]
+ },
+ {
+  "id": 46,
+  "text": "ავეჯის გადაზიდვა ბათუმი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/layout.tsx"
+  ]
+ },
+ {
+  "id": 47,
+  "text": "გადასვლა კონტენტზე",
+  "client": false,
+  "files": [
+   "src/app/[lang]/layout.tsx"
+  ]
+ },
+ {
+  "id": 48,
+  "text": "გვერდი ვერ მოიძებნა",
+  "client": false,
+  "files": [
+   "src/app/[lang]/not-found.tsx"
+  ]
+ },
+ {
+  "id": 49,
+  "text": "ბმული შესაძლოა შეიცვალა ან წაიშალა. დაბრუნდით მთავარ გვერდზე ან ნახეთ ჩვენი სერვისები.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/not-found.tsx"
+  ]
+ },
+ {
+  "id": 50,
+  "text": "მთავარი გვერდი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/not-found.tsx"
+  ]
+ },
+ {
+  "id": 51,
+  "text": "ხშირად დასმული კითხვები",
+  "client": false,
+  "files": [
+   "src/app/[lang]/page.tsx"
+  ]
+ },
+ {
+  "id": 52,
+  "text": "პასუხები კითხვებზე, რომლებსაც ყველაზე ხშირად გვისვამენ სამუშაოს დაწყებამდე.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/page.tsx"
+  ]
+ },
+ {
+  "id": 53,
+  "text": "ფასები",
+  "client": true,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx",
+   "src/components/sections/PricingPreview.tsx",
+   "src/components/sections/PricingTable.tsx",
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 54,
+  "text": "რამდენი შეიძლება დაჯდეს?",
+  "client": false,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx",
+   "src/components/sections/PricingPreview.tsx",
+   "src/components/sections/PricingTable.tsx"
+  ]
+ },
+ {
+  "id": 55,
+  "text": "კალკულატორი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx"
+  ]
+ },
+ {
+  "id": 56,
+  "text": "გამოთვალეთ სავარაუდო ბიუჯეტი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx"
+  ]
+ },
+ {
+  "id": 57,
+  "text": "აირჩიეთ ობიექტის ტიპი და მიუთითეთ ფართობი — კალკულატორი აჩვენებს დიაპაზონს ჩვენი საორიენტაციო ფასების მიხედვით. ზუსტი ხარჯთაღრიცხვისთვის ობიექტის დათვალიერება გვჭირდება.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx"
+  ]
+ },
+ {
+  "id": 58,
+  "text": "რამდენი ღირს?",
+  "client": false,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx"
+  ]
+ },
+ {
+  "id": 59,
+  "text": "ყველაზე ხშირი კითხვები ფასზე",
+  "client": false,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx"
+  ]
+ },
+ {
+  "id": 60,
+  "text": "მოკლე პასუხები კითხვებზე, რომლებსაც ყველაზე ხშირად გვისვამენ.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx"
+  ]
+ },
+ {
+  "id": 61,
+  "text": "ერთი სამუშაო ან სრული პროექტი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/page.tsx"
+  ]
+ },
+ {
+  "id": 62,
+  "text": "ჩვენ ვიღებთ პასუხისმგებლობას სამშენებლო პროექტის განხორციელებაზე და საჭიროების მიხედვით ვაერთიანებთ შესაბამის სპეციალისტებს. აირჩიეთ სერვისი — დანარჩენს ჩვენ ვიღებთ ჩვენზე.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/page.tsx"
+  ]
+ },
+ {
+  "id": 63,
+  "text": "შეფასების მოთხოვნა",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx"
+  ]
+ },
+ {
+  "id": 64,
+  "text": "რას ვაკეთებთ",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx",
+   "src/components/sections/ServicesGrid.tsx"
+  ]
+ },
+ {
+  "id": 65,
+  "text": "რას მოიცავს სერვისი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx"
+  ]
+ },
+ {
+  "id": 66,
+  "text": "ხშირი კითხვები —",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx"
+  ]
+ },
+ {
+  "id": 67,
+  "text": "საორიენტაციო ფასი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx",
+   "src/components/sections/PricingTable.tsx"
+  ]
+ },
+ {
+  "id": 68,
+  "text": "სწრაფი პასუხისთვის",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx"
+  ]
+ },
+ {
+  "id": 69,
+  "text": "გამოგზავნეთ ფოტო ან მოკლე აღწერა WhatsApp-ით — საორიენტაციო ფასს სწრაფად გეტყვით.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx"
+  ]
+ },
+ {
+  "id": 70,
+  "text": "დარეკვა",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx"
+  ]
+ },
+ {
+  "id": 71,
+  "text": "განაცხადი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx"
+  ]
+ },
+ {
+  "id": 72,
+  "text": "მოითხოვეთ შეფასება —",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx"
+  ]
+ },
+ {
+  "id": 73,
+  "text": "შეავსეთ ფორმა და ჩვენი წარმომადგენელი დაგიკავშირდებათ ობიექტის დათვალიერების დროის შესათანხმებლად.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx"
+  ]
+ },
+ {
+  "id": 74,
+  "text": "სხვა სერვისები",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx"
+  ]
+ },
+ {
+  "id": 75,
+  "text": "ყველა სერვისი",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/[slug]/page.tsx",
+   "src/components/sections/ServicesGrid.tsx"
+  ]
+ },
+ {
+  "id": 76,
+  "text": "მანამდე",
+  "client": true,
+  "files": [
+   "src/components/brand/BeforeAfterSlider.tsx"
+  ]
+ },
+ {
+  "id": 77,
+  "text": "შემდეგ",
+  "client": true,
+  "files": [
+   "src/components/brand/BeforeAfterSlider.tsx"
+  ]
+ },
+ {
+  "id": 78,
+  "text": ": მანამდე / შემდეგ — გადაწიეთ ხაზი",
+  "client": true,
+  "files": [
+   "src/components/brand/BeforeAfterSlider.tsx"
+  ]
+ },
+ {
+  "id": 79,
+  "text": "TNT POWER — ვიდეო",
+  "client": true,
+  "files": [
+   "src/components/brand/VideoReel.tsx"
+  ]
+ },
+ {
+  "id": 80,
+  "text": "განაცხადი გაგზავნილია",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 81,
+  "text": "კომპანია",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 82,
+  "text": "სახელი *",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 83,
+  "text": "თქვენი სახელი",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 84,
+  "text": "ტელეფონი *",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 85,
+  "text": "სერვისი",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx",
+   "src/components/sections/PricingTable.tsx",
+   "src/components/sections/ProblemsWeFix.tsx"
+  ]
+ },
+ {
+  "id": 86,
+  "text": "— აირჩიეთ —",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 87,
+  "text": "ობიექტის მისამართი",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 88,
+  "text": "ბათუმი, ქუჩა / უბანი",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 89,
+  "text": "აღწერეთ სამუშაო *",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 90,
+  "text": "მაგ.: 60 მ² ბინა, სრული რემონტი, ელექტროობა და სანტექნიკა შესაცვლელია…",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 91,
+  "text": "გაგზავნით თანხმობას აცხადებთ, რომ დაგიკავშირდეთ მითითებულ ნომერზე.",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 92,
+  "text": "იგზავნება…",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 93,
+  "text": "განაცხადის გაგზავნა",
+  "client": true,
+  "files": [
+   "src/components/forms/ContactForm.tsx"
+  ]
+ },
+ {
+  "id": 94,
+  "text": "მოგვწერეთ WhatsApp-ში",
+  "client": false,
+  "files": [
+   "src/components/layout/FloatingContact.tsx"
+  ]
+ },
+ {
+  "id": 95,
+  "text": "დაგვირეკეთ",
+  "client": false,
+  "files": [
+   "src/components/layout/FloatingContact.tsx"
+  ]
+ },
+ {
+  "id": 96,
+  "text": "სამშენებლო კომპანია",
+  "client": false,
+  "files": [
+   "src/components/layout/Footer.tsx"
+  ]
+ },
+ {
+  "id": 97,
+  "text": "— ვიღებთ პასუხისმგებლობას პროექტის სრულ ან ნაწილობრივ განხორციელებაზე და საჭიროების მიხედვით ვაერთიანებთ შესაბამის სპეციალისტებს.",
+  "client": false,
+  "files": [
+   "src/components/layout/Footer.tsx"
+  ]
+ },
+ {
+  "id": 98,
+  "text": "ნავიგაცია",
+  "client": false,
+  "files": [
+   "src/components/layout/Footer.tsx"
+  ]
+ },
+ {
+  "id": 99,
+  "text": ". ყველა უფლება დაცულია.",
+  "client": false,
+  "files": [
+   "src/components/layout/Footer.tsx"
+  ]
+ },
+ {
+  "id": 100,
+  "text": "მთავარი ნავიგაცია",
+  "client": true,
+  "files": [
+   "src/components/layout/Header.tsx"
+  ]
+ },
+ {
+  "id": 101,
+  "text": "კონსულტაცია",
+  "client": true,
+  "files": [
+   "src/components/layout/Header.tsx"
+  ]
+ },
+ {
+  "id": 102,
+  "text": "მენიუს დახურვა",
+  "client": true,
+  "files": [
+   "src/components/layout/Header.tsx"
+  ]
+ },
+ {
+  "id": 103,
+  "text": "მენიუს გახსნა",
+  "client": true,
+  "files": [
+   "src/components/layout/Header.tsx"
+  ]
+ },
+ {
+  "id": 104,
+  "text": "კონსულტაცია და შეფასება",
+  "client": true,
+  "files": [
+   "src/components/layout/Header.tsx"
+  ]
+ },
+ {
+  "id": 105,
+  "text": "TNT POWER — მთავარი გვერდი",
+  "client": true,
+  "files": [
+   "src/components/layout/Logo.tsx"
+  ]
+ },
+ {
+  "id": 106,
+  "text": "გეგმავთ მშენებლობას ან რემონტს?",
+  "client": false,
+  "files": [
+   "src/components/sections/CtaBanner.tsx"
+  ]
+ },
+ {
+  "id": 107,
+  "text": "ერთი სამუშაო ან სრული პროექტი — დაგვიკავშირდით, ვნახავთ ობიექტს და მოვამზადებთ ხარჯთაღრიცხვას.",
+  "client": false,
+  "files": [
+   "src/components/sections/CtaBanner.tsx"
+  ]
+ },
+ {
+  "id": 108,
+  "text": "ფორმის შევსება",
+  "client": false,
+  "files": [
+   "src/components/sections/CtaBanner.tsx"
+  ]
+ },
+ {
+  "id": 109,
+  "text": "კითხვა–პასუხი",
+  "client": false,
+  "files": [
+   "src/components/sections/Faq.tsx"
+  ]
+ },
+ {
+  "id": 110,
+  "text": "ერთი კომპანია —",
+  "client": false,
+  "files": [
+   "src/components/sections/Hero.tsx"
+  ]
+ },
+ {
+  "id": 111,
+  "text": "სრული პასუხისმგებლობა.",
+  "client": false,
+  "files": [
+   "src/components/sections/Hero.tsx"
+  ]
+ },
+ {
+  "id": 112,
+  "text": "რემონტი, მშენებლობა, ელექტროობა და სანტექნიკა — ერთი ჯგუფი და ერთი პასუხისმგებელი პირი",
+  "client": false,
+  "files": [
+   "src/components/sections/Hero.tsx"
+  ]
+ },
+ {
+  "id": 113,
+  "text": "მოითხოვეთ შეფასება",
+  "client": false,
+  "files": [
+   "src/components/sections/Hero.tsx"
+  ]
+ },
+ {
+  "id": 114,
+  "text": "მთავარი",
+  "client": true,
+  "files": [
+   "src/components/sections/PageHero.tsx",
+   "src/data/site.ts",
+   "src/lib/jsonld.ts"
+  ]
+ },
+ {
+  "id": 115,
+  "text": "კომერციული ფართი",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx",
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 116,
+  "text": "საორიენტაციო კალკულატორი",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 117,
+  "text": "მიუთითეთ ფართობი და ნახეთ სავარაუდო დიაპაზონი.",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 118,
+  "text": "ობიექტის ტიპი",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 119,
+  "text": "ფართობი (მ²)",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 120,
+  "text": "ფართობი მ²",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 121,
+  "text": "ფართობი მ² (რიცხვი)",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 122,
+  "text": "სავარაუდო დიაპაზონი",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 123,
+  "text": "მიუთითეთ 10–2000 მ²",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 124,
+  "text": "₾/მ² ×",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 125,
+  "text": "მ²",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 126,
+  "text": "ზუსტი ხარჯთაღრიცხვის მოთხოვნა",
+  "client": true,
+  "files": [
+   "src/components/sections/PriceEstimator.tsx"
+  ]
+ },
+ {
+  "id": 127,
+  "text": "საორიენტაციო დიაპაზონები, რომ თავიდანვე იცოდეთ, რას უნდა ელოდოთ. ზუსტი თანხა — ობიექტის დათვალიერების შემდეგ.",
+  "client": false,
+  "files": [
+   "src/components/sections/PricingPreview.tsx"
+  ]
+ },
+ {
+  "id": 128,
+  "text": "ყველა ფასი და კითხვა-პასუხი",
+  "client": false,
+  "files": [
+   "src/components/sections/PricingPreview.tsx"
+  ]
+ },
+ {
+  "id": 129,
+  "text": "საორიენტაციო ფასები, რომ თავიდანვე იცოდეთ, რას უნდა ელოდოთ. ზუსტი თანხა — ობიექტის დათვალიერების შემდეგ.",
+  "client": false,
+  "files": [
+   "src/components/sections/PricingTable.tsx"
+  ]
+ },
+ {
+  "id": 130,
+  "text": "საორიენტაციო ფასები",
+  "client": false,
+  "files": [
+   "src/components/sections/PricingTable.tsx"
+  ]
+ },
+ {
+  "id": 131,
+  "text": "დეტალურად",
+  "client": false,
+  "files": [
+   "src/components/sections/PricingTable.tsx",
+   "src/components/sections/ServiceCard.tsx"
+  ]
+ },
+ {
+  "id": 132,
+  "text": "შენიშვნა",
+  "client": false,
+  "files": [
+   "src/components/sections/PricingTable.tsx"
+  ]
+ },
+ {
+  "id": 133,
+  "text": "ყველა ფასის ნახვა",
+  "client": false,
+  "files": [
+   "src/components/sections/PricingTable.tsx"
+  ]
+ },
+ {
+  "id": 134,
+  "text": "ხარჯთაღრიცხვის მოთხოვნა",
+  "client": false,
+  "files": [
+   "src/components/sections/PricingTable.tsx"
+  ]
+ },
+ {
+  "id": 135,
+  "text": "რატომ TNT POWER",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemSolution.tsx",
+   "src/components/sections/TrustStrip.tsx"
+  ]
+ },
+ {
+  "id": 136,
+  "text": "გაქვთ ბინა და არ იცით, საიდან დაიწყოთ რემონტი?",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemSolution.tsx"
+  ]
+ },
+ {
+  "id": 137,
+  "text": "ხუთი ხელოსნის ნაცვლად — ერთი პასუხისმგებელი კომპანია. აი, რა იცვლება, როცა პროექტს TNT POWER-ს ანდობთ.",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemSolution.tsx"
+  ]
+ },
+ {
+  "id": 138,
+  "text": "რას იღებთ",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemSolution.tsx"
+  ]
+ },
+ {
+  "id": 139,
+  "text": "დიახ",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemSolution.tsx"
+  ]
+ },
+ {
+  "id": 140,
+  "text": "არა",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemSolution.tsx"
+  ]
+ },
+ {
+  "id": 141,
+  "text": "იცნობთ ამ სიტუაციას?",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemsWeFix.tsx"
+  ]
+ },
+ {
+  "id": 142,
+  "text": "პრობლემა, რომელიც დღეს გაწუხებთ — ჩვენი საქმეა",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemsWeFix.tsx"
+  ]
+ },
+ {
+  "id": 143,
+  "text": "არ არის აუცილებელი, იცოდეთ, რომელი სპეციალისტი გჭირდებათ. აღწერეთ სიტუაცია — შესაბამის ჯგუფს ჩვენ ავარჩევთ.",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemsWeFix.tsx"
+  ]
+ },
+ {
+  "id": 144,
+  "text": "აღწერეთ თქვენი სიტუაცია",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemsWeFix.tsx"
+  ]
+ },
+ {
+  "id": 145,
+  "text": "გამოგზავნეთ ფოტო WhatsApp-ით",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemsWeFix.tsx"
+  ]
+ },
+ {
+  "id": 146,
+  "text": "ხშირი პრობლემები, რომლებსაც ვხსნით",
+  "client": false,
+  "files": [
+   "src/components/sections/ProblemsWeFix.tsx"
+  ]
+ },
+ {
+  "id": 147,
+  "text": "როგორ ვმუშაობთ",
+  "client": false,
+  "files": [
+   "src/components/sections/ProcessSteps.tsx"
+  ]
+ },
+ {
+  "id": 148,
+  "text": "პრობლემა → TNT POWER → შედეგი",
+  "client": false,
+  "files": [
+   "src/components/sections/ProcessSteps.tsx"
+  ]
+ },
+ {
+  "id": 149,
+  "text": "მომხმარებელი გვიკავშირდება — დანარჩენს ჩვენ ვიღებთ ჩვენზე. ექვსი ნაბიჯი, ერთი პასუხისმგებელი.",
+  "client": false,
+  "files": [
+   "src/components/sections/ProcessSteps.tsx"
+  ]
+ },
+ {
+  "id": 150,
+  "text": "როგორ ვმუშაობთ — ნაბიჯები",
+  "client": false,
+  "files": [
+   "src/components/sections/ProcessSteps.tsx"
+  ]
+ },
+ {
+  "id": 151,
+  "text": "ნაბიჯი",
+  "client": false,
+  "files": [
+   "src/components/sections/ProcessSteps.tsx"
+  ]
+ },
+ {
+  "id": 152,
+  "text": "ნამუშევრები",
+  "client": false,
+  "files": [
+   "src/components/sections/Projects.tsx"
+  ]
+ },
+ {
+  "id": 153,
+  "text": "სივრცე, რომელსაც თქვენთვის ვქმნით",
+  "client": false,
+  "files": [
+   "src/components/sections/Projects.tsx"
+  ]
+ },
+ {
+  "id": 154,
+  "text": "ცარიელი ფართი → დასრულებული ობიექტი. ერთი გეგმა, ერთი ჯგუფი, ერთი პასუხისმგებლობა.",
+  "client": false,
+  "files": [
+   "src/components/sections/Projects.tsx"
+  ]
+ },
+ {
+  "id": 155,
+  "text": "თქვენი პროექტი შემდეგია",
+  "client": false,
+  "files": [
+   "src/components/sections/Projects.tsx"
+  ]
+ },
+ {
+  "id": 156,
+  "text": "ბინები, კერძო სახლები, კომერციული ფართები, ელექტროობა, სანტექნიკა, ეზო — და დამხმარე სერვისები.",
+  "client": false,
+  "files": [
+   "src/components/sections/ServicesGrid.tsx"
+  ]
+ },
+ {
+  "id": 157,
+  "text": "სოციალური ქსელები",
+  "client": false,
+  "files": [
+   "src/components/sections/SocialPosts.tsx"
+  ]
+ },
+ {
+  "id": 158,
+  "text": "გამოგვყევით სოციალურ ქსელებში",
+  "client": false,
+  "files": [
+   "src/components/sections/SocialPosts.tsx"
+  ]
+ },
+ {
+  "id": 159,
+  "text": "პროექტების ისტორიები, „რამდენი ღირს?“ პასუხები და Before / After — ისე, როგორც რეალურად ვმუშაობთ.",
+  "client": false,
+  "files": [
+   "src/components/sections/SocialPosts.tsx"
+  ]
+ },
+ {
+  "id": 160,
+  "text": "სოციალური პოსტები",
+  "client": false,
+  "files": [
+   "src/components/sections/SocialPosts.tsx"
+  ]
+ },
+ {
+  "id": 161,
+  "text": "ჩვენ არ ვყიდით მხოლოდ ელექტროობას, რემონტს ან სანტექნიკას. ვყიდით",
+  "client": false,
+  "files": [
+   "src/components/sections/Statement.tsx"
+  ]
+ },
+ {
+  "id": 162,
+  "text": "სიმშვიდეს",
+  "client": false,
+  "files": [
+   "src/components/sections/Statement.tsx"
+  ]
+ },
+ {
+  "id": 163,
+  "text": ", ორგანიზებულ პროცესს და ერთ პასუხისმგებელ კომპანიას.",
+  "client": false,
+  "files": [
+   "src/components/sections/Statement.tsx"
+  ]
+ },
+ {
+  "id": 164,
+  "text": "ერთი პასუხისმგებელი მხარე",
+  "client": false,
+  "files": [
+   "src/components/sections/TrustStrip.tsx"
+  ]
+ },
+ {
+  "id": 165,
+  "text": "შედეგზე ერთი კომპანია აგებს პასუხს — არა ათი სხვადასხვა ხელოსანი.",
+  "client": false,
+  "files": [
+   "src/components/sections/TrustStrip.tsx"
+  ]
+ },
+ {
+  "id": 166,
+  "text": "გამჭვირვალე ხარჯთაღრიცხვა",
+  "client": false,
+  "files": [
+   "src/components/sections/TrustStrip.tsx"
+  ]
+ },
+ {
+  "id": 167,
+  "text": "ფასი ცნობილია დაწყებამდე. ცვლილებები — მხოლოდ თქვენთან შეთანხმებით.",
+  "client": false,
+  "files": [
+   "src/components/sections/TrustStrip.tsx"
+  ]
+ },
+ {
+  "id": 168,
+  "text": "ერთიანი სამუშაო ჯგუფი",
+  "client": false,
+  "files": [
+   "src/components/sections/TrustStrip.tsx"
+  ]
+ },
+ {
+  "id": 169,
+  "text": "საჭიროების მიხედვით ვაერთიანებთ სპეციალისტებს ერთი მართვის ქვეშ.",
+  "client": false,
+  "files": [
+   "src/components/sections/TrustStrip.tsx"
+  ]
+ },
+ {
+  "id": 170,
+  "text": "ვმუშაობთ ადგილზე — ობიექტის დათვალიერება და შეფასება სწრაფად.",
+  "client": false,
+  "files": [
+   "src/components/sections/TrustStrip.tsx"
+  ]
+ },
+ {
+  "id": 171,
+  "text": "წინა",
+  "client": true,
+  "files": [
+   "src/components/ui/Carousel.tsx"
+  ]
+ },
+ {
+  "id": 172,
+  "text": "შემდეგი",
+  "client": true,
+  "files": [
+   "src/components/ui/Carousel.tsx"
+  ]
+ },
+ {
+  "id": 173,
+  "text": "მხოლოდ ერთი კონკრეტული სამუშაო მინდა — ეს შესაძლებელია?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 174,
+  "text": "დიახ. TNT POWER-ს შეუძლია აიღოს ერთი კონკრეტული სამუშაო (მაგალითად, მხოლოდ ელექტროობა ან მხოლოდ აბაზანა), პროექტის ერთი ეტაპი ან სრული პროექტი. მოცულობას თქვენ ირჩევთ.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 175,
+  "text": "შეგიძლიათ დაასრულოთ სხვის მიერ დაწყებული და შეჩერებული სამუშაო?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 176,
+  "text": "დიახ. ვათვალიერებთ ობიექტს, ვაფასებთ არსებულ მდგომარეობას, ვამზადებთ ხარჯთაღრიცხვას დარჩენილ სამუშაოებზე და ვაგრძელებთ იმ ეტაპიდან, სადაც სამუშაო შეჩერდა.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 177,
+  "text": "ვინ ყიდულობს მასალებს?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 178,
+  "text": "ორივე ვარიანტი შესაძლებელია. თუ გსურთ, მასალების შერჩევასა და შეძენას ჩვენ ვიღებთ ჩვენზე ხარჯთაღრიცხვის ფარგლებში; ასევე შეგიძლიათ მასალები თავად შეიძინოთ — ჩვენ მოგცემთ ზუსტ სიას.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 179,
+  "text": "როგორ ვიგებ, რა ეტაპზეა სამუშაო?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 180,
+  "text": "თქვენ გყავთ ერთი საკონტაქტო პირი, რომელიც რეგულარულად გაწვდით ინფორმაციას პროცესის შესახებ — ფოტოებით და მოკლე ანგარიშით ყოველი ეტაპის დასრულებისას.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 181,
+  "text": "სად მუშაობთ?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 182,
+  "text": "ვმუშაობთ ბათუმსა და აჭარის რეგიონში. სხვა რეგიონში სამუშაოს შესახებ დაგვიკავშირდით — განვიხილავთ ინდივიდუალურად.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 183,
+  "text": "ნაგვის გატანა და ავეჯის გადაზიდვა რემონტის გარეშეც შეგიძლიათ?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 184,
+  "text": "დიახ. ნაგვის გატანა, ავეჯის გადაზიდვა და მცირე დამხმარე სამუშაოები ცალკე სერვისებია — რემონტის შეკვეთა არ არის აუცილებელი.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 185,
+  "text": "რამდენი ღირს 50 მ² ბინის რემონტი?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 186,
+  "text": "საორიენტაციოდ 25,000 ₾-დან 60,000 ₾-მდე (500–1,200 ₾/მ²). საბოლოო თანხა დამოკიდებულია სამუშაოს მოცულობასა და მასალების კლასზე — ზუსტ ხარჯთაღრიცხვას ობიექტის დათვალიერების შემდეგ ვამზადებთ.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 187,
+  "text": "რამდენი ღირს აბაზანის სრული რემონტი?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 188,
+  "text": "აბაზანის ფასი დამოკიდებულია ფართობზე, სანტექნიკის განლაგებაზე და ფილების/მოწყობილობის არჩევანზე. დაგვიკავშირდით, გამოგზავნეთ ფოტო ან ზომები — და საორიენტაციო ფასს სწრაფად გეტყვით.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 189,
+  "text": "რამდენი ღირს ელექტროობის სრული შეცვლა?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 190,
+  "text": "მცირე ელექტროსამონტაჟო სამუშაოები 100 ₾-დან იწყება. ბინის სრული გაყვანილობის შეცვლა დამოკიდებულია ფართობზე, წერტილების რაოდენობასა და ელექტრო ფარის მოთხოვნებზე — ინდივიდუალურ შეთავაზებას ობიექტის დათვალიერების შემდეგ ვამზადებთ.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 191,
+  "text": "რამდენი ღირს ნაგვის გატანა?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 192,
+  "text": "ფასი დამოკიდებულია მოცულობაზე, სართულზე (ლიფტის არსებობა) და მანძილზე. გამოგზავნეთ ფოტო WhatsApp-ით და ფასს წინასწარ გეტყვით.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 193,
+  "text": "ხარჯთაღრიცხვა ფასიანია?",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 194,
+  "text": "პირველადი კონსულტაცია და საორიენტაციო შეფასება ტელეფონით ან WhatsApp-ით უფასოა. ობიექტის დათვალიერებისა და დეტალური ხარჯთაღრიცხვის პირობებზე წინასწარ შევთანხმდებით.",
+  "client": false,
+  "files": [
+   "src/data/faq.ts"
+  ]
+ },
+ {
+  "id": 195,
+  "text": "ძველი ან არასწორი გაყვანილობა",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 196,
+  "text": "ავტომატი ხშირად ითიშება, როზეტები ცხელდება, განათება ციმციმებს.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 197,
+  "text": "ვამოწმებთ სისტემას და ვცვლით გაყვანილობას ან ფარს — ერთხელ და უსაფრთხოდ.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 198,
+  "text": "გაჟონვა და ნესტი",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 199,
+  "text": "ლაქები ჭერზე, სუნი აბაზანაში, წყლის წნევა დაეცა.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 200,
+  "text": "ვპოულობთ წყაროს და ვასწორებთ მიზეზს — არა მხოლოდ სიმპტომს.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 201,
+  "text": "ცუდად გაკეთებული რემონტი",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 202,
+  "text": "ბზარები, არასწორად დაგებული ფილები, უსწორმასწორო კედლები.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 203,
+  "text": "ვაფასებთ, რა უნდა გადაკეთდეს, და ვასწორებთ ერთი ჯგუფით.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 204,
+  "text": "დაუმთავრებელი ობიექტი",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 205,
+  "text": "ბრიგადამ მიატოვა, სამუშაო შუა გზაზეა შეჩერებული.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 206,
+  "text": "ვიღებთ ობიექტს ნებისმიერ ეტაპზე და ვაბარებთ დასრულებულს.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 207,
+  "text": "ნარჩენები რემონტის შემდეგ",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 208,
+  "text": "ტომრები, ძველი ავეჯი, ტექნიკა — და არავინ, ვინც გაიტანს.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 209,
+  "text": "ჩვენი ჯგუფი ყველაფერს შეფუთავს, ჩატვირთავს და გაიტანს.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 210,
+  "text": "გადასვლა ახალ მისამართზე",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 211,
+  "text": "მძიმე ავეჯი, მაღალი სართული, ლიფტი არ არის.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 212,
+  "text": "ვშლით, ვფუთავთ, გადავიტანთ და ვაწყობთ ახალ ბინაში.",
+  "client": false,
+  "files": [
+   "src/data/problems.ts"
+  ]
+ },
+ {
+  "id": 213,
+  "text": "ვათვალიერებთ ობიექტს",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 214,
+  "text": "ვხვდებით ადგილზე, ვაფასებთ არსებულ მდგომარეობასა და თქვენს მოთხოვნებს.",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 215,
+  "text": "ვგეგმავთ სამუშაოებს",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 216,
+  "text": "ვადგენთ ეტაპებს, ვადებსა და საჭირო სპეციალისტების ჯგუფს.",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 217,
+  "text": "ვამზადებთ ხარჯთაღრიცხვას",
+  "client": true,
+  "files": [
+   "src/data/process.ts",
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 218,
+  "text": "იღებთ გამჭვირვალე ხარჯთაღრიცხვას მასალებითა და სამუშაოებით — ყოველგვარი ფარული ხარჯის გარეშე.",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 219,
+  "text": "ვაწყობთ სამუშაო ჯგუფს",
+  "client": true,
+  "files": [
+   "src/data/process.ts",
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 220,
+  "text": "საჭიროების მიხედვით ვაერთიანებთ ელექტრიკოსს, სანტექნიკოსს, მღებავსა და სხვა სპეციალისტებს.",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 221,
+  "text": "ვაკონტროლებთ პროცესს",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 222,
+  "text": "ერთი პასუხისმგებელი პირი აკონტროლებს ხარისხს და გაწვდით ინფორმაციას ყოველ ეტაპზე.",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 223,
+  "text": "ვაბარებთ დასრულებულ ობიექტს",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 224,
+  "text": "იღებთ დასრულებულ, მოწესრიგებულ ობიექტს — ისე, როგორც შევთანხმდით.",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 225,
+  "text": "ცალ-ცალკე ხელოსნები",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 226,
+  "text": "ერთი საკონტაქტო პირი მთელი პროექტისთვის",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 227,
+  "text": "არა ხუთი ნომერი და ხუთი შეთანხმება",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 228,
+  "text": "ერთი ხარჯთაღრიცხვა და გამჭვირვალე ფასი",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 229,
+  "text": "მასალები და სამუშაო ერთ დოკუმენტში",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 230,
+  "text": "სპეციალისტების შერჩევა და კოორდინაცია",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 231,
+  "text": "ელექტრიკოსი, სანტექნიკოსი, მღებავი — ერთი მართვის ქვეშ",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 232,
+  "text": "ვადებისა და ხარისხის კონტროლი",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 233,
+  "text": "ინფორმაცია ყოველ ეტაპზე — ფოტო და ანგარიში",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 234,
+  "text": "პასუხისმგებლობა საბოლოო შედეგზე",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 235,
+  "text": "ერთი კომპანია, რომელსაც შედეგზე ეკითხებით",
+  "client": false,
+  "files": [
+   "src/data/process.ts"
+  ]
+ },
+ {
+  "id": 236,
+  "text": "ოთახის სრული რემონტი",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 237,
+  "text": "ბინა · Before / After",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 238,
+  "text": "ბათქაშიდან მზა ოთახამდე: კედლების მომზადება, შეღებვა, ლამინატის დაგება — ერთი ჯგუფით, ერთი გეგმით.",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 239,
+  "text": "სავაჭრო სივრცის სრული მოწყობა",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 240,
+  "text": "განათება, ხის პანელები, ინტერიერი და ავეჯი — მაღაზია გახსნისთვის სრულად მზა მდგომარეობაში.",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 241,
+  "text": "საცხოვრებელი სივრცის დიზაინ-პროექტი",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 242,
+  "text": "ბინა · ვიზუალიზაცია",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 243,
+  "text": "ყველაფერი იდეიდან იწყება: ვიზუალიზაცია, დაგეგმვა, ხარჯთაღრიცხვა — და შემდეგ შესრულება.",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 244,
+  "text": "ვიდეო-ტური: სავაჭრო სივრცე გახსნის წინ",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 245,
+  "text": "როგორ ვაშენებთ თქვენს ხედვას — TNT POWER",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 246,
+  "text": "სრული რემონტი — TNT POWER",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 247,
+  "text": "ინტერიერის დიზაინი — TNT POWER",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 248,
+  "text": "ოფისის მოწყობა — TNT POWER",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 249,
+  "text": "გაწუხებთ ბზარები? — TNT POWER",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 250,
+  "text": "მზად ხართ რემონტისთვის? 3 ნაბიჯი — TNT POWER",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 251,
+  "text": "დაგეგმვა · დიზაინი · შესრულება — TNT POWER",
+  "client": false,
+  "files": [
+   "src/data/projects.ts"
+  ]
+ },
+ {
+  "id": 252,
+  "text": "რამდენ ხანს გრძელდება ბინის სრული რემონტი?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 253,
+  "text": "დამოკიდებულია ფართობზე, სამუშაოს მოცულობასა და მასალების მიწოდებაზე. ვადებს ხარჯთაღრიცხვასთან ერთად ვადგენთ და ყოველი ეტაპის დასრულებისას გაცნობებთ, სად ვართ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 254,
+  "text": "შემიძლია რემონტის დროს ბინაში ვიცხოვრო?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 255,
+  "text": "ნაწილობრივი რემონტისას ხშირად დიახ — სამუშაოებს ოთახების მიხედვით ვგეგმავთ. სრული რემონტისას (ელექტროობა, სანტექნიკა, იატაკი) უმჯობესია ბინა თავისუფალი იყოს. ამას დათვალიერებისას ერთად განვიხილავთ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 256,
+  "text": "„შავ კარკასში“ ჩაბარებულ ახალ ბინასაც აკეთებთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 257,
+  "text": "დიახ, ნულიდან სრულად: ტიხრები, ელექტროობა, სანტექნიკა, გათბობა, კედლები, იატაკი, აბაზანა და სამზარეულო — ერთი ხარჯთაღრიცხვით და ერთი პასუხისმგებელი პირით.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 258,
+  "text": "სახლის მშენებლობას ნულიდან იწყებთ თუ მხოლოდ რემონტს აკეთებთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 259,
+  "text": "ორივეს — ახალი სახლის მშენებლობა, რეკონსტრუქცია ან არსებულის რემონტი. ასევე ვაგრძელებთ სხვის მიერ დაწყებულ და შეჩერებულ მშენებლობას.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 260,
+  "text": "სახურავის ან ფასადის სამუშაოებს ცალკეც აკეთებთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 261,
+  "text": "დიახ. შეგიძლიათ მხოლოდ ერთი ეტაპი შეუკვეთოთ — მაგალითად, სახურავის შეცვლა, ფასადის მოწყობა, ტერასა ან ეზოს ღობე.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 262,
+  "text": "ბათუმის გარეთ, აჭარის სოფლებშიც მუშაობთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 263,
+  "text": "დიახ, ვმუშაობთ ბათუმსა და აჭარის რეგიონში. მანძილსა და მასალების მიწოდებას ხარჯთაღრიცხვაში წინასწარ ვითვალისწინებთ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 264,
+  "text": "შეგიძლიათ ფართი „გასაღების ჩაბარებამდე“ მოამზადოთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 265,
+  "text": "დიახ — საწყისი მდგომარეობიდან სრულად მზა ობიექტამდე: დაგეგმარება, საინჟინრო სისტემები, ინტერიერი, განათება და ავეჯის მონტაჟი.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 266,
+  "text": "შეგიძლიათ ისე იმუშაოთ, რომ ბიზნესი არ შეჩერდეს?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 267,
+  "text": "სამუშაო გრაფიკს თქვენს რეჟიმზე ვარგებთ — ეტაპობრივად, ზონების მიხედვით ან არასამუშაო საათებში. ამას დაგეგმვისას ვათანხმებთ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 268,
+  "text": "რესტორნისა და კაფესთვის საინჟინრო ნაწილსაც აკეთებთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 269,
+  "text": "დიახ — სამზარეულოს წყალმომარაგება და კანალიზაცია, გაზრდილი ელექტრო დატვირთვისთვის ფარი და გაყვანილობა, სანტექნიკური კვანძები და განათება.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 270,
+  "text": "ავარიულ გამოძახებაზეც მოდიხართ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 271,
+  "text": "დიახ. ავარიული და სასწრაფო სამუშაოებისთვის დაგვირეკეთ პირდაპირ — მოსვლის დროს ზარისთანავე შევათანხმებთ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 272,
+  "text": "როგორ მივხვდე, რომ გაყვანილობა შესაცვლელია?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 273,
+  "text": "ხშირი ნიშნებია: ავტომატის ხშირი ჩართვა-გამორთვა, სითბოს ან სუნის შეგრძნება როზეტებთან, განათების ციმციმი, ძველი ალუმინის კაბელი. დათვალიერებისას სისტემას ვამოწმებთ და გეუბნებით, სჭირდება თუ არა სრული შეცვლა.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 274,
+  "text": "მცირე სამუშაოსთვის — მაგალითად, რამდენიმე როზეტის დამატებისთვის — მოდიხართ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 275,
+  "text": "დიახ. მცირე ელექტროსამონტაჟო სამუშაოები 100 ₾-დან იწყება.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 276,
+  "text": "გაჟონვის წყაროს პოვნასაც აკეთებთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 277,
+  "text": "დიახ — ვამოწმებთ სისტემას, ვპოულობთ მიზეზს და ვასწორებთ საფუძვლიანად, არა მხოლოდ ხილულ სიმპტომს.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 278,
+  "text": "აბაზანის სრულ მოწყობაში რა შედის?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 279,
+  "text": "მილების გაყვანა, კანალიზაცია, ჰიდროიზოლაცია, ფილები და სანტექნიკის მონტაჟი. შეგვიძლია ავიღოთ სრულად ან მხოლოდ საინჟინრო ნაწილი.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 280,
+  "text": "მასალებს — მილებს, სანტექნიკას — ვინ ყიდულობს?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 281,
+  "text": "ორივე ვარიანტი შესაძლებელია: ხარჯთაღრიცხვის ფარგლებში ჩვენ, ან თქვენ ჩვენი სიის მიხედვით.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 282,
+  "text": "რას ნიშნავს „სრული პროექტის მართვა“ პრაქტიკაში?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 283,
+  "text": "თქვენ გყავთ ერთი საკონტაქტო პირი. ჩვენ ვგეგმავთ ეტაპებს, ვადგენთ ხარჯთაღრიცხვას, ვყიდულობთ მასალებს, ვმართავთ ყველა სპეციალისტს და გაბარებთ დასრულებულ ობიექტს.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 284,
+  "text": "შეგიძლიათ დაასრულოთ პროექტი, რომელიც სხვა ბრიგადამ მიატოვა?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 285,
+  "text": "დიახ — ვაფასებთ არსებულ მდგომარეობას, ვადგენთ დარჩენილი სამუშაოების ხარჯთაღრიცხვას და ვაგრძელებთ იმ წერტილიდან, სადაც სამუშაო შეჩერდა.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 286,
+  "text": "როგორ ვაკონტროლებ პროცესს, თუ ქალაქში არ ვარ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 287,
+  "text": "ყოველი ეტაპის დასრულებისას იღებთ ფოტო/ვიდეო ანგარიშს და მოკლე შეჯამებას. მნიშვნელოვან გადაწყვეტილებებს მხოლოდ თქვენთან შეთანხმებით ვიღებთ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 288,
+  "text": "ეზოს დაგეგმარებაშიც გვეხმარებით თუ მხოლოდ სამუშაოებს ასრულებთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 289,
+  "text": "ორივეს — ვგეგმავთ ზონებს (ბილიკები, ტერასა, გამწვანება, განათება), ვადგენთ ხარჯთაღრიცხვას და ვასრულებთ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 290,
+  "text": "დრენაჟი რატომ არის საჭირო?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 291,
+  "text": "ბათუმის ნალექიან კლიმატში წყლის სწორი გაყვანა იცავს საძირკველს, ფილებსა და გამწვანებას. ეზოს მოწყობისას დრენაჟს თავიდანვე ვგეგმავთ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 292,
+  "text": "მხოლოდ ღობე ან კარიბჭე შეგიძლიათ გააკეთოთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 293,
+  "text": "დიახ. მცირე სამუშაოები 500 ₾-დან — ღობე, კარიბჭე, ბილიკი ან განათება ცალკეც შესაძლებელია.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 294,
+  "text": "როგორ ითვლება ფასი?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 295,
+  "text": "მოცულობის, სართულისა და ლიფტის არსებობის, მანძილის მიხედვით. გამოგზავნეთ ფოტო WhatsApp-ით — ფასს წინასწარ გეტყვით.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 296,
+  "text": "თქვენ თვითონ ატვირთავთ თუ მე უნდა ჩამოვიტანო?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 297,
+  "text": "ჩვენი ჯგუფი ყველაფერს თავად შეფუთავს, ჩამოიტანს და ჩატვირთავს — თქვენი მონაწილეობა არ არის საჭირო.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 298,
+  "text": "ძველ ავეჯსა და ტექნიკასაც გაიტანთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 299,
+  "text": "დიახ — ავეჯი, ტექნიკა, დემონტაჟის ნარჩენები, ასევე სარდაფისა და ეზოს გაწმენდა.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 300,
+  "text": "ავეჯის დაშლა-აწყობა შედის ფასში?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 301,
+  "text": "შეთანხმებით — შეგვიძლია დავშალოთ, შევფუთოთ, გადავიტანოთ და ახალ მისამართზე ავაწყოთ. ფასს წინასწარ ვათანხმებთ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 302,
+  "text": "მძიმე ნივთებს — მაცივარს, სარეცხ მანქანას, კარადას — სართულებზე ატანთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 303,
+  "text": "დიახ, ლიფტის გარეშეც. ჯგუფსა და აღჭურვილობას ნივთების მიხედვით ვირჩევთ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 304,
+  "text": "ოფისის გადატანა სამუშაო საათების გარეშე შესაძლებელია?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 305,
+  "text": "დიახ — გადატანას საღამოს ან დასვენების დღეს ვგეგმავთ, რომ ბიზნესი არ შეჩერდეს.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 306,
+  "text": "რა ითვლება „მცირე სამუშაოდ“?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 307,
+  "text": "ის, რაც ერთ ოსტატს რამდენიმე საათში შეუძლია: ავეჯის აწყობა, თაროებისა და ტელევიზორის დამონტაჟება, საკეტის შეცვლა, წვრილმანი შეკეთება, დემონტაჟი.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 308,
+  "text": "ინსტრუმენტები თქვენ მოგაქვთ?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 309,
+  "text": "დიახ, ოსტატი ყველა საჭირო ინსტრუმენტით მოდის. სამაგრები და მასალები — შეთანხმებით.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 310,
+  "text": "რამდენიმე წვრილმანი საქმე ერთად შემიძლია შევუკვეთო?",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 311,
+  "text": "დიახ — ჩამოწერეთ სია ან გამოგზავნეთ ფოტოები და ერთ ვიზიტში შევასრულებთ.",
+  "client": false,
+  "files": [
+   "src/data/serviceFaq.ts"
+  ]
+ },
+ {
+  "id": 312,
+  "text": "სამშენებლო და სარემონტო სამუშაოები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 313,
+  "text": "მშენებლობა და რემონტი",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 314,
+  "text": "ერთი კონკრეტული სამუშაოდან სრულ მშენებლობამდე — ერთი პასუხისმგებელი კომპანია.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 315,
+  "text": "დამხმარე სერვისები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 316,
+  "text": "დამხმარე სერვისი",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 317,
+  "text": "ნაგვის გატანა, გადაზიდვა და მცირე სამუშაოები — როცა სრული ჯგუფი არ გჭირდებათ, მაგრამ საქმე მაინც უნდა გაკეთდეს.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 318,
+  "text": "ბინების რემონტი",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 319,
+  "text": "სრული ან ნაწილობრივი რემონტი — ელექტროობიდან და სანტექნიკიდან შეღებვამდე და ფილების დაგებამდე. ერთი ჯგუფი, ერთი პასუხისმგებელი.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 320,
+  "text": "გაქვთ ბინა და არ იცით, საიდან დაიწყოთ? TNT POWER იღებს პასუხისმგებლობას მთელ პროცესზე: ვათვალიერებთ ბინას, ვგეგმავთ სამუშაოებს, ვამზადებთ ხარჯთაღრიცხვას და ვაბარებთ დასრულებულ ბინას. შეგვიძლია ავიღოთ როგორც სრული რემონტი, ისე ერთი კონკრეტული ეტაპი — მაგალითად, მხოლოდ აბაზანა ან მხოლოდ ელექტროობა.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 321,
+  "text": "სრული რემონტი",
+  "client": true,
+  "files": [
+   "src/data/services.ts",
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 322,
+  "text": "ნაწილობრივი რემონტი",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 323,
+  "text": "ელექტროობა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 324,
+  "text": "სანტექნიკა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 325,
+  "text": "გათბობა და კონდიცირება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 326,
+  "text": "კედლებისა და იატაკის სამუშაოები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 327,
+  "text": "ჭერი",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 328,
+  "text": "შეღებვა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 329,
+  "text": "ფილები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 330,
+  "text": "აბაზანის მოწყობა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 331,
+  "text": "სამზარეულოს მომზადება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 332,
+  "text": "500 – 1,200 ₾ / მ²",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 333,
+  "text": "საორიენტაციო ფასი — დამოკიდებულია სამუშაოს ტიპსა და მასალებზე.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 334,
+  "text": "ბინების რემონტი ბათუმში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 335,
+  "text": "ბინის სრული და ნაწილობრივი რემონტი ბათუმში — ელექტროობა, სანტექნიკა, ფილები, შეღებვა, აბაზანა. საორიენტაციო ფასი 500–1,200 ₾/მ². ერთი პასუხისმგებელი კომპანია.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 336,
+  "text": "კერძო სახლები და კოტეჯები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 337,
+  "text": "კერძო სახლები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 338,
+  "text": "მშენებლობა, რეკონსტრუქცია და რემონტი — სახურავიდან ეზოს ღობემდე. ვიღებთ სრულ ციკლს ან ერთ ეტაპს.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 339,
+  "text": "კერძო სახლი ბევრ სხვადასხვა სპეციალისტს მოითხოვს: მშენებელს, სახურავის ოსტატს, ელექტრიკოსს, სანტექნიკოსს, ფასადის ხელოსანს. TNT POWER აერთიანებს ყველა საჭირო სპეციალისტს ერთი პასუხისმგებლობის ქვეშ — თქვენ ერთ კომპანიასთან გაქვთ საქმე. ვასრულებთ ასევე უკვე დაწყებულ და შეჩერებულ სამშენებლო სამუშაოებს.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 340,
+  "text": "მშენებლობა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 341,
+  "text": "რეკონსტრუქცია",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 342,
+  "text": "სრული ან ნაწილობრივი რემონტი",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 343,
+  "text": "სახურავი",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 344,
+  "text": "ფასადი",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 345,
+  "text": "კომუნიკაციები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 346,
+  "text": "ეზოს მოწყობა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 347,
+  "text": "ტერასა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 348,
+  "text": "ღობე",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 349,
+  "text": "ინდივიდუალური შეთავაზება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 350,
+  "text": "სამუშაოს მოცულობის მიხედვით, ობიექტის დათვალიერების შემდეგ.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 351,
+  "text": "კერძო სახლებისა და კოტეჯების მშენებლობა ბათუმში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 352,
+  "text": "კერძო სახლის მშენებლობა, რეკონსტრუქცია და რემონტი ბათუმში — სახურავი, ფასადი, კომუნიკაციები, ეზო. სრული ციკლი ერთი კომპანიის პასუხისმგებლობით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 353,
+  "text": "კომერციული ფართები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 354,
+  "text": "ოფისები, მაღაზიები, რესტორნები, სასტუმროები — საწყისი მდგომარეობიდან სრულად მზა ობიექტამდე.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 355,
+  "text": "კომერციული ობიექტისთვის დრო ფულია. TNT POWER-ს შეუძლია აიღოს ფართი საწყისი მდგომარეობიდან და მიიყვანოს გახსნისთვის სრულად მზა მდგომარეობამდე — ინჟინერიით, ინტერიერით და ყველა საჭირო სისტემით. ვმუშაობთ ოფისებზე, სავაჭრო ფართებზე, კვების ობიექტებსა და სასტუმროებზე.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 356,
+  "text": "ოფისები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 357,
+  "text": "მაღაზიები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 358,
+  "text": "რესტორნები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 359,
+  "text": "კაფეები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 360,
+  "text": "სასტუმროები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 361,
+  "text": "საწყობები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 362,
+  "text": "სალონები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 363,
+  "text": "450 – 1,500 ₾ / მ²",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 364,
+  "text": "სამუშაოს ტიპისა და მასალების მიხედვით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 365,
+  "text": "კომერციული ფართების რემონტი ბათუმში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 366,
+  "text": "ოფისის, მაღაზიის, რესტორნის, კაფესა და სასტუმროს რემონტი და მოწყობა ბათუმში. საწყისი მდგომარეობიდან სრულად მზა ობიექტამდე. 450–1,500 ₾/მ².",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 367,
+  "text": "ელექტროსამონტაჟო სამუშაოები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 368,
+  "text": "ახალი გაყვანილობა, ელექტრო ფარი, განათება, ავარიული სამუშაოები — საცხოვრებელ და კომერციულ ობიექტებზე.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 369,
+  "text": "არასწორი გაყვანილობა ერთ-ერთი ყველაზე გავრცელებული და სახიფათო პრობლემაა ძველ ბინებში. ვაკეთებთ სრულ ელექტრო სისტემას ნულიდან, ვცვლით ძველ გაყვანილობას, ვამონტაჟებთ ელექტრო ფარებსა და განათების სისტემებს. ავარიული და სასწრაფო სამუშაოებისთვის დაგვიკავშირდით პირდაპირ.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 370,
+  "text": "სრული ელექტრო სისტემა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 371,
+  "text": "ახალი გაყვანილობა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 372,
+  "text": "ელექტრო ფარის მონტაჟი",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 373,
+  "text": "განათების სისტემები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 374,
+  "text": "კომერციული ობიექტების ელექტროობა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 375,
+  "text": "ავარიული და სასწრაფო სამუშაოები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 376,
+  "text": "არსებული სისტემის შეკეთება და განახლება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 377,
+  "text": "მცირე სამუშაოები — 100 ₾‑დან",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 378,
+  "text": "სრული სისტემა — ინდივიდუალური შეთავაზება ობიექტის დათვალიერების შემდეგ.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 379,
+  "text": "ელექტროსამონტაჟო სამუშაოები ბათუმში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 380,
+  "text": "ელექტრიკოსი ბათუმში: ახალი გაყვანილობა, ელექტრო ფარის მონტაჟი, განათება, ავარიული სამუშაოები. მცირე სამუშაოები 100 ₾-დან.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 381,
+  "text": "სანტექნიკა და საინჟინრო სამუშაოები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 382,
+  "text": "წყალმომარაგება, კანალიზაცია, აბაზანის მოწყობა, ტექნიკური კვანძები — ახალი სისტემები და არსებულის შეკეთება.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 383,
+  "text": "გაჟონვა, ცუდი წნევა, ძველი მილები — ამ პრობლემებს ვხსნით ერთხელ და საფუძვლიანად. ვამონტაჟებთ წყალმომარაგებისა და კანალიზაციის სისტემებს, ვაწყობთ აბაზანებსა და ტექნიკურ კვანძებს, ვასრულებთ საინჟინრო სამუშაოებს კომერციულ ობიექტებზეც.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 384,
+  "text": "წყალმომარაგება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 385,
+  "text": "კანალიზაცია",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 386,
+  "text": "ტექნიკური კვანძები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 387,
+  "text": "არსებული სისტემების შეკეთება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 388,
+  "text": "კომერციული ობიექტების საინჟინრო სამუშაოები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 389,
+  "text": "ობიექტის მიხედვით",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 390,
+  "text": "ფასი დგინდება სამუშაოს მოცულობისა და ობიექტის დათვალიერების შემდეგ.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 391,
+  "text": "სანტექნიკა და საინჟინრო სამუშაოები ბათუმში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 392,
+  "text": "სანტექნიკოსი ბათუმში: წყალმომარაგება, კანალიზაცია, აბაზანის მოწყობა, გაჟონვის აღმოფხვრა, საინჟინრო სამუშაოები საცხოვრებელ და კომერციულ ობიექტებზე.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 393,
+  "text": "მშენებლობა და სრული პროექტის მართვა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 394,
+  "text": "პროექტის მართვა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 395,
+  "text": "იდეა → დაგეგმვა → ხარჯთაღრიცხვა → მასალები → შესრულება → ჩაბარება. ერთი პასუხისმგებელი კომპანია მთელ ციკლზე.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 396,
+  "text": "TNT POWER-ს შეუძლია მომხმარებლისგან აიღოს სრული პასუხისმგებლობა — იდეიდან ჩაბარებამდე. ვგეგმავთ, ვადგენთ ხარჯთაღრიცხვას, ვყიდულობთ მასალებს, ვაწყობთ და ვმართავთ სამუშაო ჯგუფებს, ვაკონტროლებთ ხარისხს და ვაბარებთ დასრულებულ ობიექტს. თქვენ იღებთ ინფორმაციას პროცესის ყოველ ეტაპზე.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 397,
+  "text": "დაგეგმვა და პროექტირება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 398,
+  "text": "ხარჯთაღრიცხვის მომზადება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 399,
+  "text": "მასალების შერჩევა და შეძენა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 400,
+  "text": "სამუშაო ჯგუფების ორგანიზება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 401,
+  "text": "პროცესის კონტროლი და ანგარიშგება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 402,
+  "text": "დაწყებული და შეჩერებული სამუშაოს გაგრძელება",
+  "client": true,
+  "files": [
+   "src/data/services.ts",
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 403,
+  "text": "ობიექტის ჩაბარება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 404,
+  "text": "ინდივიდუალური ხარჯთაღრიცხვა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 405,
+  "text": "მზადდება ობიექტის დათვალიერებისა და პროექტის განხილვის შემდეგ.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 406,
+  "text": "მშენებლობა და პროექტის მართვა ბათუმში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 407,
+  "text": "სამშენებლო პროექტის სრული მართვა ბათუმში — დაგეგმვა, ხარჯთაღრიცხვა, მასალები, სამუშაო ჯგუფები, კონტროლი და ჩაბარება ერთი კომპანიის პასუხისმგებლობით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 408,
+  "text": "ეზოსა და გარე სივრცის მოწყობა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 409,
+  "text": "დაგეგმარება, მიწის სამუშაოები, ფილები, ბილიკები, ღობე, განათება, დრენაჟი და მწვანე სივრცე.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 410,
+  "text": "ეზო სახლის გაგრძელებაა. ვგეგმავთ და ვაწყობთ გარე სივრცეს სრულად — მიწის სამუშაოებიდან განათებამდე და გამწვანებამდე. შეგვიძლია ავიღოთ ერთი კონკრეტული სამუშაო (მაგალითად, ღობე ან ბილიკი) ან სრული პროექტი.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 411,
+  "text": "ეზოს დაგეგმარება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 412,
+  "text": "მიწის სამუშაოები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 413,
+  "text": "ფილების დაგება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 414,
+  "text": "ბილიკები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 415,
+  "text": "ღობეები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 416,
+  "text": "კარიბჭეები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 417,
+  "text": "განათება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 418,
+  "text": "დრენაჟი",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 419,
+  "text": "მწვანე სივრცის მოწყობა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 420,
+  "text": "მცირე სამუშაოები — 500 ₾‑დან",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 421,
+  "text": "სრული პროექტი — ინდივიდუალური ხარჯთაღრიცხვით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 422,
+  "text": "ეზოს მოწყობა ბათუმში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 423,
+  "text": "ეზოსა და გარე სივრცის მოწყობა ბათუმში: ფილების დაგება, ბილიკები, ღობე, კარიბჭე, განათება, დრენაჟი, გამწვანება. მცირე სამუშაოები 500 ₾-დან.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 424,
+  "text": "ნაგვისა და სამშენებლო ნარჩენების გატანა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 425,
+  "text": "ნაგვის გატანა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 426,
+  "text": "სამშენებლო ნარჩენების, ძველი ავეჯისა და ტექნიკის გატანა ბათუმში — შეფუთვით, ჩატვირთვით და ტრანსპორტირებით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 427,
+  "text": "რემონტის შემდეგ ან მის წინ ხშირად რჩება ის, რისი გატანაც ყველაზე დიდი თავსატეხია: სამშენებლო ნარჩენები, ძველი ავეჯი, დაზიანებული ტექნიკა. ჩვენი ჯგუფი შეფუთავს, ჩატვირთავს და გაიტანს ყველაფერს — თქვენ არაფერი გჭირდებათ, გარდა ერთი ზარისა.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 428,
+  "text": "სამშენებლო ნარჩენების გატანა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 429,
+  "text": "ძველი ავეჯისა და ტექნიკის გატანა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 430,
+  "text": "ბინის, სარდაფის ან ეზოს გაწმენდა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 431,
+  "text": "დემონტაჟის ნარჩენების გატანა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 432,
+  "text": "ტომრებში შეფუთვა და ჩატვირთვა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 433,
+  "text": "ტრანსპორტირება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 434,
+  "text": "შეთანხმებით",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 435,
+  "text": "მოცულობის, სართულისა და მანძილის მიხედვით. ფასს გეტყვით ზარისთანავე ან ფოტოს მიხედვით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 436,
+  "text": "ნაგვისა და სამშენებლო ნარჩენების გატანა ბათუმში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 437,
+  "text": "სამშენებლო ნარჩენების, ძველი ავეჯისა და ტექნიკის გატანა ბათუმში. ჩატვირთვა და ტრანსპორტირება ჩვენი ჯგუფით. ფასი შეთანხმებით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 438,
+  "text": "ავეჯისა და ტვირთის გადაზიდვა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 439,
+  "text": "ავეჯის გადაზიდვა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 440,
+  "text": "ბინიდან ბინაში გადასვლა, ოფისის გადატანა, მძიმე ნივთების ატანა-ჩამოტანა — შეფუთვით, დაშლით და აწყობით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 441,
+  "text": "გადასვლა სტრესულია მხოლოდ მაშინ, როცა ყველაფერი თავად უნდა მოაწყოთ. ჩვენ ვიღებთ პროცესს სრულად: ავეჯის დაშლა, შეფუთვა, ჩატვირთვა, ტრანსპორტირება, ახალ მისამართზე ატანა და აწყობა. ვმუშაობთ ბინებთან, სახლებთან და ოფისებთან ბათუმსა და მის შემოგარენში.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 442,
+  "text": "ბინიდან ბინაში გადასვლა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 443,
+  "text": "ოფისის გადატანა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 444,
+  "text": "ავეჯის დაშლა და აწყობა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 445,
+  "text": "შეფუთვა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 446,
+  "text": "ჩატვირთვა და გადმოტვირთვა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 447,
+  "text": "მძიმე ნივთები — მაცივარი, სარეცხი მანქანა, კარადა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 448,
+  "text": "სართულებზე ატანა-ჩამოტანა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 449,
+  "text": "ნივთების რაოდენობის, სართულისა და მანძილის მიხედვით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 450,
+  "text": "ავეჯისა და ტვირთის გადაზიდვა ბათუმში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 451,
+  "text": "ავეჯის გადაზიდვა ბათუმში: ბინიდან ბინაში გადასვლა, ოფისის გადატანა, დაშლა-აწყობა, შეფუთვა, მძიმე ნივთების ატანა. ფასი შეთანხმებით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 452,
+  "text": "მცირე დამხმარე სამუშაოები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 453,
+  "text": "მცირე სამუშაოები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 454,
+  "text": "ავეჯის აწყობა, თაროებისა და ტელევიზორის დამონტაჟება, წვრილმანი შეკეთება, დემონტაჟი — სწრაფად და უპრობლემოდ.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 455,
+  "text": "ყოველთვის არ გჭირდებათ სრული სამუშაო ჯგუფი. ზოგჯერ საკმარისია ერთი ოსტატი, რომელიც მოვა დროულად და საქმეს ბოლომდე მიიყვანს. მცირე სამუშაოებისთვის ვაგზავნით შესაბამის სპეციალისტს — ინსტრუმენტებით.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 456,
+  "text": "ავეჯის აწყობა და დაშლა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 457,
+  "text": "თაროების, კარადებისა და ტელევიზორის დამონტაჟება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 458,
+  "text": "კარის, საკეტისა და სახელურების შეცვლა",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 459,
+  "text": "წვრილმანი შეკეთება",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 460,
+  "text": "დემონტაჟის სამუშაოები",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 461,
+  "text": "დახმარება ტვირთის ატანა-ჩამოტანაში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 462,
+  "text": "სამუშაოს აღწერისა და ფოტოს მიხედვით ფასს გეტყვით წინასწარ.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 463,
+  "text": "მცირე დამხმარე სამუშაოები ბათუმში",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 464,
+  "text": "ოსტატი ბათუმში მცირე სამუშაოებისთვის: ავეჯის აწყობა, თაროებისა და ტელევიზორის დამონტაჟება, საკეტის შეცვლა, წვრილმანი შეკეთება, დემონტაჟი.",
+  "client": false,
+  "files": [
+   "src/data/services.ts"
+  ]
+ },
+ {
+  "id": 465,
+  "text": "ერთი კომპანია — სრული პასუხისმგებლობა.",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 466,
+  "text": "თქვენი იდეა — ჩვენი პასუხისმგებლობა.",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 467,
+  "text": "TNT POWER — სამშენებლო კომპანია ბათუმში. ვიღებთ პასუხისმგებლობას თქვენი პროექტის სრულ ან ნაწილობრივ განხორციელებაზე: ბინებისა და კომერციული ფართების რემონტი, კერძო სახლების მშენებლობა, ელექტროობა, სანტექნიკა, ეზოს მოწყობა, ნაგვის გატანა და ავეჯის გადაზიდვა.",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 468,
+  "text": "ბათუმი",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 469,
+  "text": "ბათუმში",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 470,
+  "text": "აჭარა",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 471,
+  "text": "ბათუმი და აჭარის რეგიონი",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 472,
+  "text": "ბათუმი, საქართველო",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 473,
+  "text": "ყოველდღე, 09:00–20:00",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 474,
+  "text": "ერთი კონკრეტული სამუშაო",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 475,
+  "text": "პროექტის ერთი ეტაპი",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 476,
+  "text": "მშენებლობის სრული ციკლი",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 477,
+  "text": "არსებული ობიექტის დასრულება და მოწესრიგება",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 478,
+  "text": "ვაფასებთ სამუშაოს",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 479,
+  "text": "ვგეგმავთ პროცესს",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 480,
+  "text": "ვაკონტროლებთ ხარისხს",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 481,
+  "text": "გაწვდით ინფორმაციას პროცესის შესახებ",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 482,
+  "text": "ვაბარებთ დასრულებულ სამუშაოს",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 483,
+  "text": "ფასი დამოკიდებულია პროექტზე და მასალებზე. ზუსტი ხარჯთაღრიცხვა მზადდება ობიექტის დათვალიერების შემდეგ.",
+  "client": true,
+  "files": [
+   "src/data/site.ts"
+  ]
+ },
+ {
+  "id": 484,
+  "text": "TNT POWER — სამშენებლო კომპანია ",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 485,
+  "text": ". ერთი პასუხისმგებელი მხარე თქვენი პროექტისთვის: ვაფასებთ, ვგეგმავთ, ვადგენთ ხარჯთაღრიცხვას, ვაწყობთ ჯგუფს, ვაკონტროლებთ ხარისხს და ვაბარებთ შედეგს.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 486,
+  "text": " From Idea to Completion. TNT POWER — პასუხისმგებლობას ვიღებთ შედეგზე.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/about/page.tsx"
+  ]
+ },
+ {
+  "id": 487,
+  "text": "დაუკავშირდით TNT POWER-ს ",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 488,
+  "text": " კონსულტაციისა და ობიექტის შეფასებისთვის. ტელეფონი: ",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 489,
+  "text": ". WhatsApp, ელფოსტა და საკონტაქტო ფორმა.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/contact/page.tsx"
+  ]
+ },
+ {
+  "id": 490,
+  "text": " — სამშენებლო კომპანია ",
+  "client": false,
+  "files": [
+   "src/app/[lang]/layout.tsx"
+  ]
+ },
+ {
+  "id": 491,
+  "text": "რემონტისა და მშენებლობის საორიენტაციო ფასები ",
+  "client": false,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx"
+  ]
+ },
+ {
+  "id": 492,
+  "text": ": ბინის რემონტი 500–1,200 ₾/მ², კომერციული ფართი 450–1,500 ₾/მ², ელექტროობა 100 ₾-დან, ეზოს მოწყობა 500 ₾-დან. ",
+  "client": false,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx"
+  ]
+ },
+ {
+  "id": 493,
+  "text": "საორიენტაციო ფასები, რომ თავიდანვე იცოდეთ, რას უნდა ელოდოთ. ",
+  "client": false,
+  "files": [
+   "src/app/[lang]/pricing/page.tsx"
+  ]
+ },
+ {
+  "id": 494,
+  "text": "TNT POWER-ის სერვისები ",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/page.tsx"
+  ]
+ },
+ {
+  "id": 495,
+  "text": ": ბინებისა და კომერციული ფართების რემონტი, კერძო სახლების მშენებლობა, ელექტროობა, სანტექნიკა, ეზოს მოწყობა, ნაგვის გატანა, ავეჯის გადაზიდვა და მცირე დამხმარე სამუშაოები.",
+  "client": false,
+  "files": [
+   "src/app/[lang]/services/page.tsx"
+  ]
+ },
+ {
+  "id": 496,
+  "text": " — შემდეგ",
+  "client": true,
+  "files": [
+   "src/components/brand/BeforeAfterSlider.tsx"
+  ]
+ },
+ {
+  "id": 497,
+  "text": "მანამდე ",
+  "client": true,
+  "files": [
+   "src/components/brand/BeforeAfterSlider.tsx"
+  ]
+ },
+ {
+  "id": 498,
+  "text": "სლაიდი ",
+  "client": true,
+  "files": [
+   "src/components/ui/Carousel.tsx"
+  ]
+ }
+]

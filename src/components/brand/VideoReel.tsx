@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { cn } from "@/lib/cn";
+import { useI18n } from "@/i18n/client";
 
 interface VideoReelProps {
   src: string;
@@ -17,6 +18,7 @@ interface VideoReelProps {
  * `muted` პროგრამულად ვაყენებთ, რადგან React SSR-ში ატრიბუტს არ წერს და autoplay იბლოკება.
  */
 export function VideoReel({ src, poster, caption, aspect = "aspect-[9/16]", className }: VideoReelProps) {
+  const { tr } = useI18n();
   const ref = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -49,7 +51,7 @@ export function VideoReel({ src, poster, caption, aspect = "aspect-[9/16]", clas
         playsInline
         preload="metadata"
         muted
-        aria-label={caption ?? "TNT POWER — ვიდეო"}
+        aria-label={caption ?? tr("TNT POWER — ვიდეო")}
       >
         <source src={src} type="video/mp4" />
       </video>

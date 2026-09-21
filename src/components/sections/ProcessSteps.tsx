@@ -6,13 +6,16 @@ import { ServiceIcon } from "@/components/ServiceIcon";
 import { BrandCircles } from "@/components/brand/BrandCircles";
 import { processSteps } from "@/data/process";
 
+import { getI18n } from "@/i18n/server";
+
 interface ProcessStepsProps {
   /** სათაურის გარეშე — როცა სექცია სხვა სათაურის ქვეშ ჯდება */
   compact?: boolean;
 }
 
 /** როგორ ვმუშაობთ — ექვსი ნაბიჯი გადაფურცვლად ლენტაზე */
-export function ProcessSteps({ compact = false }: ProcessStepsProps) {
+export async function ProcessSteps({ compact = false }: ProcessStepsProps) {
+  const { tr } = await getI18n();
   return (
     <section className="relative overflow-hidden bg-ink-950 py-14 text-white sm:py-16 lg:py-24">
       <Image
@@ -29,16 +32,16 @@ export function ProcessSteps({ compact = false }: ProcessStepsProps) {
         {!compact && (
           <SectionHeading
             light
-            eyebrow="როგორ ვმუშაობთ"
-            title="პრობლემა → TNT POWER → შედეგი"
-            description="მომხმარებელი გვიკავშირდება — დანარჩენს ჩვენ ვიღებთ ჩვენზე. ექვსი ნაბიჯი, ერთი პასუხისმგებელი."
+            eyebrow={tr("როგორ ვმუშაობთ")}
+            title={tr("პრობლემა → TNT POWER → შედეგი")}
+            description={tr("მომხმარებელი გვიკავშირდება — დანარჩენს ჩვენ ვიღებთ ჩვენზე. ექვსი ნაბიჯი, ერთი პასუხისმგებელი.")}
           />
         )}
 
         <div className={compact ? undefined : "mt-10"}>
           <Carousel
             light
-            label="როგორ ვმუშაობთ — ნაბიჯები"
+            label={tr("როგორ ვმუშაობთ — ნაბიჯები")}
             perView="[--per-view:1.15] sm:[--per-view:2] lg:[--per-view:3]"
             gap="[--gap:1rem]"
           >
@@ -56,10 +59,10 @@ export function ProcessSteps({ compact = false }: ProcessStepsProps) {
                   </span>
                 </div>
                 <h3 className="mt-5 text-lg font-bold">
-                  <span className="sr-only">ნაბიჯი {i + 1}: </span>
-                  {step.title}
+                  <span className="sr-only">{tr("ნაბიჯი")} {i + 1}: </span>
+                  {tr(step.title)}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-ink-300">{step.text}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink-300">{tr(step.text)}</p>
               </div>
             ))}
           </Carousel>

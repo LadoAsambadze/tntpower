@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { ServiceIcon } from "@/components/ServiceIcon";
 import { serviceCategories, type ImagePosition, type Service } from "@/data/services";
 import { cn } from "@/lib/cn";
+import { getI18n } from "@/i18n/server";
 
 const positionClass: Record<ImagePosition, string> = {
   top: "object-top",
@@ -11,10 +12,11 @@ const positionClass: Record<ImagePosition, string> = {
   bottom: "object-bottom",
 };
 
-export function ServiceCard({ service }: { service: Service }) {
+export async function ServiceCard({ service }: { service: Service }) {
+  const { tr, href } = await getI18n();
   return (
     <Link
-      href={`/services/${service.slug}`}
+      href={href(`/services/${service.slug}`)}
       className="group flex h-full flex-col overflow-hidden rounded-2xl border border-ink-200 bg-white transition-all hover:-translate-y-0.5 hover:border-ink-900 hover:shadow-xl hover:shadow-ink-950/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-ink-900">
@@ -34,7 +36,7 @@ export function ServiceCard({ service }: { service: Service }) {
         />
         {/* კატეგორიის ლეიბლი — რედაქციული სტილი */}
         <span className="absolute top-3 left-3 rounded-full bg-ink-950/70 px-2.5 py-1 text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-white backdrop-blur">
-          {serviceCategories[service.category].label}
+          {tr(serviceCategories[service.category].label)}
         </span>
         <span className="absolute bottom-3 left-3 flex size-10 items-center justify-center rounded-md bg-brand-500 text-ink-950">
           <ServiceIcon name={service.icon} className="size-5" />
@@ -42,12 +44,12 @@ export function ServiceCard({ service }: { service: Service }) {
       </div>
 
       <div className="flex flex-1 flex-col p-5">
-        <h3 className="text-lg font-bold text-ink-950">{service.title}</h3>
-        <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-600">{service.excerpt}</p>
+        <h3 className="text-lg font-bold text-ink-950">{tr(service.title)}</h3>
+        <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-600">{tr(service.excerpt)}</p>
         <div className="mt-5 flex items-center justify-between gap-3 border-t border-ink-100 pt-4">
-          <span className="text-sm font-semibold text-ink-800">{service.price.label}</span>
+          <span className="text-sm font-semibold text-ink-800">{tr(service.price.label)}</span>
           <span className="flex items-center gap-1 text-sm font-semibold text-ink-950 underline decoration-brand-500 decoration-2 underline-offset-4">
-            დეტალურად
+            {tr("დეტალურად")}
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
           </span>
         </div>

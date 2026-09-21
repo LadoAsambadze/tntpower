@@ -1,6 +1,8 @@
 "use server";
 
 import { services } from "@/data/services";
+import { defaultLocale, isLocale } from "@/i18n/config";
+import { getTranslate } from "@/i18n/server";
 import type { ContactFormState } from "@/lib/contact";
 
 // +995 555 12 34 56, 555123456, (555) 12-34-56 და მსგავსი ფორმატები
@@ -22,11 +24,15 @@ export async function submitContact(
   _prev: ContactFormState,
   formData: FormData,
 ): Promise<ContactFormState> {
+  // the form posts its language in a hidden field (root params are not available in Server Actions)
+  const lang = field(formData, "locale");
+  const tr = getTranslate(isLocale(lang) ? lang : defaultLocale);
+
   // Honeypot — ბოტები ავსებენ დამალულ ველსაც
   if (field(formData, "company")) {
     return {
       status: "success",
-      message: "მადლობა! თქვენი განაცხადი მიღებულია.",
+      message: tr("მადლობა! თქვენი განაცხადი მიღებულია."),
     };
   }
 
@@ -38,19 +44,19 @@ export async function submitContact(
 
   const errors: NonNullable<ContactFormState["errors"]> = {};
 
-  if (name.length < 2) errors.name = "მიუთითეთ თქვენი სახელი.";
-  if (!PHONE_RE.test(phone)) errors.phone = "მიუთითეთ სწორი ტელეფონის ნომერი.";
+  if (name.length < 2) errors.name = tr("მიუთითეთ თქვენი სახელი.");
+  if (!PHONE_RE.test(phone)) errors.phone = tr("მიუთითეთ სწორი ტელეფონის ნომერი.");
   if (service && !services.some((s) => s.slug === service)) {
-    errors.service = "აირჩიეთ სერვისი სიიდან.";
+    errors.service = tr("აირჩიეთ სერვისი სიიდან.");
   }
   if (message.length < 10) {
-    errors.message = "მოკლედ აღწერეთ სამუშაო (მინიმუმ 10 სიმბოლო).";
+    errors.message = tr("მოკლედ აღწერეთ სამუშაო (მინიმუმ 10 სიმბოლო).");
   }
 
   if (Object.keys(errors).length > 0) {
     return {
       status: "error",
-      message: "გთხოვთ, შეასწოროთ მონიშნული ველები.",
+      message: tr("გთხოვთ, შეასწოროთ მონიშნული ველები."),
       errors,
     };
   }
@@ -59,7 +65,7 @@ export async function submitContact(
 
   // JSON-სტრიქონად — რომ ლოგ-ფაილშიც სრულად ჩაიწეროს
   console.info(
-    "[contact] ახალი განაცხადი " +
+    tr("[contact] ახალი განაცხადი ") +
       JSON.stringify({
         name,
         phone,
@@ -72,6 +78,6 @@ export async function submitContact(
 
   return {
     status: "success",
-    message: "მადლობა! თქვენი განაცხადი მიღებულია — მალე დაგიკავშირდებით.",
+    message: tr("მადლობა! თქვენი განაცხადი მიღებულია — მალე დაგიკავშირდებით."),
   };
 }

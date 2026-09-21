@@ -7,6 +7,8 @@ import { BrandCircles } from "@/components/brand/BrandCircles";
 import type { ImagePosition } from "@/data/services";
 import { cn } from "@/lib/cn";
 
+import { getI18n } from "@/i18n/server";
+
 interface Crumb {
   href: string;
   label: string;
@@ -29,7 +31,7 @@ const positionClass: Record<ImagePosition, string> = {
 };
 
 /** შიდა გვერდების მუქი სათაურის ზოლი — ბრენდის ფოტოთი და წრეების მოტივით */
-export function PageHero({
+export async function PageHero({
   eyebrow,
   title,
   description,
@@ -38,6 +40,7 @@ export function PageHero({
   imagePosition = "center",
   children,
 }: PageHeroProps) {
+  const { tr, href } = await getI18n();
   return (
     <section className="relative overflow-hidden bg-ink-950 text-white">
       {image && (
@@ -61,8 +64,8 @@ export function PageHero({
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex flex-wrap items-center gap-1 text-sm text-ink-400">
               <li>
-                <Link href="/" className="hover:text-white">
-                  მთავარი
+                <Link href={href("/")} className="hover:text-white">
+                  {tr("მთავარი")}
                 </Link>
               </li>
               {crumbs.map((c, i) => (
@@ -73,7 +76,7 @@ export function PageHero({
                       {c.label}
                     </span>
                   ) : (
-                    <Link href={c.href} className="hover:text-white">
+                    <Link href={href(c.href)} className="hover:text-white">
                       {c.label}
                     </Link>
                   )}

@@ -3,6 +3,7 @@ import { Container } from "@/components/ui/Container";
 import { Carousel } from "@/components/ui/Carousel";
 import { Reveal } from "@/components/brand/Reveal";
 import { site } from "@/data/site";
+import { getI18n } from "@/i18n/server";
 
 const items = [
   {
@@ -28,13 +29,14 @@ const items = [
 ];
 
 /** მოკლე „რატომ ჩვენ" ზოლი — სვეტები თხელი ხაზებით, მობილურზე გადაფურცვლადი */
-export function TrustStrip() {
+export async function TrustStrip() {
+  const { tr } = await getI18n();
   return (
     <section className="border-b border-ink-200 bg-paper">
       <Container className="py-8 lg:py-10">
         <Reveal>
           <Carousel
-            label="რატომ TNT POWER"
+            label={tr("რატომ TNT POWER")}
             controls={false}
             perView="[--per-view:1.35] sm:[--per-view:2] lg:[--per-view:4]"
             gap="[--gap:0px]"
@@ -46,8 +48,8 @@ export function TrustStrip() {
                   <Icon className="size-5" aria-hidden="true" />
                 </span>
                 <div className="min-w-0">
-                  <h3 className="font-semibold leading-snug text-ink-950">{title}</h3>
-                  <p className="mt-1 text-sm leading-relaxed text-ink-600">{text}</p>
+                  <h3 className="font-semibold leading-snug text-ink-950">{tr(title)}</h3>
+                  <p className="mt-1 text-sm leading-relaxed text-ink-600">{tr(text)}</p>
                 </div>
               </div>
             ))}

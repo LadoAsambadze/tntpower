@@ -5,6 +5,7 @@ import { Calculator } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { priceDisclaimer } from "@/data/site";
 import { cn } from "@/lib/cn";
+import { useI18n } from "@/i18n/client";
 
 type Kind = "apartment" | "commercial";
 
@@ -24,6 +25,9 @@ interface PriceEstimatorProps {
 
 /** საორიენტაციო ფასის კალკულატორი — მ² × ფასის დიაპაზონი */
 export function PriceEstimator({ compact = false, className }: PriceEstimatorProps) {
+  const { tr, href, locale } = useI18n();
+  // formatGel ends with the lari sign; English readers get the currency code instead
+  const money = (n: number) => (locale === "en" ? `${formatGel(n).slice(0, -1)}GEL` : formatGel(n));
   const [kind, setKind] = useState<Kind>("apartment");
   const [area, setArea] = useState(50);
 
@@ -42,15 +46,15 @@ export function PriceEstimator({ compact = false, className }: PriceEstimatorPro
           <Calculator className="size-5" aria-hidden="true" />
         </span>
         <div>
-          <h3 className="text-lg font-bold leading-tight text-ink-950">საორიენტაციო კალკულატორი</h3>
+          <h3 className="text-lg font-bold leading-tight text-ink-950">{tr("საორიენტაციო კალკულატორი")}</h3>
           {!compact && (
-            <p className="text-sm text-ink-600">მიუთითეთ ფართობი და ნახეთ სავარაუდო დიაპაზონი.</p>
+            <p className="text-sm text-ink-600">{tr("მიუთითეთ ფართობი და ნახეთ სავარაუდო დიაპაზონი.")}</p>
           )}
         </div>
       </div>
 
       <fieldset className="mt-5">
-        <legend className="mb-2 text-sm font-semibold text-ink-800">ობიექტის ტიპი</legend>
+        <legend className="mb-2 text-sm font-semibold text-ink-800">{tr("ობიექტის ტიპი")}</legend>
         <div className="grid grid-cols-2 gap-2">
           {(Object.keys(rates) as Kind[]).map((k) => (
             <label
@@ -69,7 +73,7 @@ export function PriceEstimator({ compact = false, className }: PriceEstimatorPro
                 onChange={() => setKind(k)}
                 className="sr-only"
               />
-              {rates[k].label}
+              {tr(rates[k].label)}
             </label>
           ))}
         </div>
@@ -77,7 +81,7 @@ export function PriceEstimator({ compact = false, className }: PriceEstimatorPro
 
       <div className="mt-5">
         <label htmlFor="area" className="mb-2 block text-sm font-semibold text-ink-800">
-          ფართობი (მ²)
+          {tr("ფართობი (მ²)")}
         </label>
         <div className="flex items-center gap-4">
           <input
@@ -89,7 +93,7 @@ export function PriceEstimator({ compact = false, className }: PriceEstimatorPro
             value={Math.min(area, 500)}
             onChange={(e) => setArea(Number(e.target.value))}
             className="w-full accent-brand-500"
-            aria-label="ფართობი მ²"
+            aria-label={tr("ფართობი მ²")}
           />
           <input
             type="number"
@@ -98,7 +102,7 @@ export function PriceEstimator({ compact = false, className }: PriceEstimatorPro
             value={area}
             onChange={(e) => setArea(Number(e.target.value))}
             className="w-24 rounded-md border border-ink-300 px-3 py-2 text-center font-semibold text-ink-950 focus:border-ink-950 focus:outline-none focus:ring-2 focus:ring-brand-500"
-            aria-label="ფართობი მ² (რიცხვი)"
+            aria-label={tr("ფართობი მ² (რიცხვი)")}
           />
         </div>
       </div>
@@ -109,24 +113,24 @@ export function PriceEstimator({ compact = false, className }: PriceEstimatorPro
         aria-live="polite"
       >
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-400">
-          სავარაუდო დიაპაზონი
+          {tr("სავარაუდო დიაპაზონი")}
         </p>
         {valid ? (
           <p className="font-display mt-2 text-2xl font-semibold sm:text-3xl">
-            {formatGel(area * rate.min)} – {formatGel(area * rate.max)}
+            {money(area * rate.min)} – {money(area * rate.max)}
           </p>
         ) : (
-          <p className="mt-2 text-lg font-semibold text-ink-300">მიუთითეთ 10–2000 მ²</p>
+          <p className="mt-2 text-lg font-semibold text-ink-300">{tr("მიუთითეთ 10–2000 მ²")}</p>
         )}
         <p className="mt-1 text-sm text-ink-400">
-          {rate.min}–{rate.max} ₾/მ² × {valid ? area : "—"} მ²
+          {rate.min}–{rate.max} {tr("₾/მ² ×")} {valid ? area : "—"} {tr("მ²")}
         </p>
       </div>
 
-      {!compact && <p className="mt-4 text-xs leading-relaxed text-ink-500">{priceDisclaimer}</p>}
+      {!compact && <p className="mt-4 text-xs leading-relaxed text-ink-500">{tr(priceDisclaimer)}</p>}
 
-      <Button href="/contact" className="mt-5 w-full">
-        ზუსტი ხარჯთაღრიცხვის მოთხოვნა
+      <Button href={href("/contact")} className="mt-5 w-full">
+        {tr("ზუსტი ხარჯთაღრიცხვის მოთხოვნა")}
       </Button>
     </div>
   );

@@ -14,15 +14,18 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { faqGeneral } from "@/data/faq";
 import { site } from "@/data/site";
 import { services } from "@/data/services";
+import { localizePath } from "@/i18n/config";
+import { getI18n } from "@/i18n/server";
+import { translateDeep, type Translate } from "@/i18n/translate";
 import { faqPageJsonLd } from "@/lib/jsonld";
 
 // ლოკალური ბიზნესის სტრუქტურირებული მონაცემები Google-ისთვის
-const businessJsonLd = {
+const businessJsonLd = (abs: (path: string) => string, tr: Translate) => ({
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
   name: site.name,
   description: site.description,
-  url: site.url,
+  url: abs("/"),
   telephone: site.phone,
   email: site.email,
   image: `${site.url}/images/brand/post-how-we-build.jpg`,
@@ -36,24 +39,31 @@ const businessJsonLd = {
   slogan: site.slogan,
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "სერვისები",
+    name: tr("სერვისები"),
     itemListElement: services.map((s) => ({
       "@type": "Offer",
       itemOffered: {
         "@type": "Service",
         name: s.title,
         description: s.excerpt,
-        url: `${site.url}/services/${s.slug}`,
+        url: abs(`/services/${s.slug}`),
       },
     })),
   },
-};
+});
 
-export default function HomePage() {
+export default async function HomePage() {
+  const { tr, locale } = await getI18n();
+  const abs = (path: string) => {
+    const localized = localizePath(locale, path);
+    return `${site.url}${localized === "/" ? "" : localized}`;
+  };
+  const faq = translateDeep(faqGeneral, tr);
   return (
     <>
-      <JsonLd data={businessJsonLd} />
-      <JsonLd data={faqPageJsonLd(faqGeneral)} />
+      {/* the schema is written once in Georgian; every text value is translated here */}
+      <JsonLd data={translateDeep(businessJsonLd(abs, tr), tr)} />
+      <JsonLd data={faqPageJsonLd(faq)} />
       <Hero />
       <Statement />
       <TrustStrip />
@@ -65,9 +75,9 @@ export default function HomePage() {
       <PricingPreview />
       <SocialPosts />
       <Faq
-        title="ხშირად დასმული კითხვები"
-        description="პასუხები კითხვებზე, რომლებსაც ყველაზე ხშირად გვისვამენ სამუშაოს დაწყებამდე."
-        items={faqGeneral}
+        title={tr("ხშირად დასმული კითხვები")}
+        description={tr("პასუხები კითხვებზე, რომლებსაც ყველაზე ხშირად გვისვამენ სამუშაოს დაწყებამდე.")}
+        items={faq}
       />
       <CtaBanner />
     </>

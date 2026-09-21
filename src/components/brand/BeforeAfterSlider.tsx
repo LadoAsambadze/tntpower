@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useId, useState } from "react";
 import { ChevronsLeftRight } from "lucide-react";
 import { cn } from "@/lib/cn";
+import { useI18n } from "@/i18n/client";
 
 // კონტეინერის მაქსიმალური სიგანე 1216px — მეტს ბრაუზერ არ უნდა ითხოვდეს
 const SIZES = "(min-width: 1280px) 1216px, 100vw";
@@ -28,6 +29,7 @@ export function BeforeAfterSlider({
   className,
   initial = 55,
 }: BeforeAfterSliderProps) {
+  const { tr } = useI18n();
   const [pos, setPos] = useState(initial);
   const id = useId();
 
@@ -39,7 +41,7 @@ export function BeforeAfterSlider({
       )}
     >
       {/* „შემდეგ" — სრულად */}
-      <Image src={after} alt={`${alt} — შემდეგ`} fill sizes={SIZES} className="object-cover" />
+      <Image src={after} alt={`${alt}${tr(" — შემდეგ")}`} fill sizes={SIZES} className="object-cover" />
 
       {/* „მანამდე" — მარცხნიდან ხაზამდე */}
       <div
@@ -63,14 +65,14 @@ export function BeforeAfterSlider({
 
       {/* ლეიბლები */}
       <span className="pointer-events-none absolute top-3 left-3 rounded bg-ink-950/80 px-2 py-1 text-[0.65rem] font-bold uppercase tracking-wider text-white sm:top-4 sm:left-4">
-        მანამდე
+        {tr("მანამდე")}
       </span>
       <span className="pointer-events-none absolute top-3 right-3 rounded bg-brand-500 px-2 py-1 text-[0.65rem] font-bold uppercase tracking-wider text-ink-950 sm:top-4 sm:right-4">
-        შემდეგ
+        {tr("შემდეგ")}
       </span>
 
       <label htmlFor={id} className="sr-only">
-        {alt}: მანამდე / შემდეგ — გადაწიეთ ხაზი
+        {alt}{tr(": მანამდე / შემდეგ — გადაწიეთ ხაზი")}
       </label>
       <input
         id={id}
@@ -81,7 +83,7 @@ export function BeforeAfterSlider({
         value={pos}
         onChange={(e) => setPos(Number(e.target.value))}
         className="absolute inset-0 h-full w-full cursor-ew-resize opacity-0 focus-visible:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
-        aria-valuetext={`მანამდე ${Math.round(pos)}%`}
+        aria-valuetext={`${tr("მანამდე ")}${Math.round(pos)}%`}
       />
     </div>
   );

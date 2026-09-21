@@ -7,16 +7,18 @@ import { Reveal } from "@/components/brand/Reveal";
 import { VideoReel } from "@/components/brand/VideoReel";
 import { BeforeAfterSlider } from "@/components/brand/BeforeAfterSlider";
 import { projectReel, projects, type Project } from "@/data/projects";
+import { getI18n } from "@/i18n/server";
 
 const sizes = "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 90vw";
 
-function ProjectCard({ project }: { project: Project }) {
+async function ProjectCard({ project }: { project: Project }) {
+  const { tr } = await getI18n();
   return (
     <article className="group relative h-full overflow-hidden rounded-2xl bg-ink-900 text-white">
       <div className="relative aspect-[4/5]">
         <Image
           src={project.image}
-          alt={project.title}
+          alt={tr(project.title)}
           fill
           sizes={sizes}
           className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -30,10 +32,10 @@ function ProjectCard({ project }: { project: Project }) {
 
       <div className="absolute inset-x-0 bottom-0 p-5">
         <p className="font-brand text-[0.7rem] uppercase tracking-[0.22em] text-brand-400">
-          {project.category}
+          {tr(project.category)}
         </p>
-        <h3 className="font-display mt-1 text-xl font-semibold leading-tight">{project.title}</h3>
-        <p className="mt-2 text-sm leading-relaxed text-ink-300">{project.description}</p>
+        <h3 className="font-display mt-1 text-xl font-semibold leading-tight">{tr(project.title)}</h3>
+        <p className="mt-2 text-sm leading-relaxed text-ink-300">{tr(project.description)}</p>
       </div>
     </article>
   );
@@ -43,7 +45,8 @@ function ProjectCard({ project }: { project: Project }) {
  * ნამუშევრები — ზემოთ ერთი დიდი Before / After სლაიდერი (გამორჩეული პროექტი),
  * ქვემოთ ვიდეო-რილი და დანარჩენი პროექტები გადაფურცვლად ლენტაზე.
  */
-export function Projects() {
+export async function Projects() {
+  const { tr, href } = await getI18n();
   const featured = projects.find((p) => p.before);
   const rest = projects.filter((p) => !p.before);
 
@@ -52,12 +55,12 @@ export function Projects() {
       <Container>
         <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <SectionHeading
-            eyebrow="ნამუშევრები"
-            title="სივრცე, რომელსაც თქვენთვის ვქმნით"
-            description="ცარიელი ფართი → დასრულებული ობიექტი. ერთი გეგმა, ერთი ჯგუფი, ერთი პასუხისმგებლობა."
+            eyebrow={tr("ნამუშევრები")}
+            title={tr("სივრცე, რომელსაც თქვენთვის ვქმნით")}
+            description={tr("ცარიელი ფართი → დასრულებული ობიექტი. ერთი გეგმა, ერთი ჯგუფი, ერთი პასუხისმგებლობა.")}
           />
-          <Button href="/contact" variant="dark" className="shrink-0 self-start md:self-auto">
-            თქვენი პროექტი შემდეგია
+          <Button href={href("/contact")} variant="dark" className="shrink-0 self-start md:self-auto">
+            {tr("თქვენი პროექტი შემდეგია")}
           </Button>
         </div>
 
@@ -66,31 +69,31 @@ export function Projects() {
             <BeforeAfterSlider
               before={featured.before}
               after={featured.image}
-              alt={featured.title}
+              alt={tr(featured.title)}
               className="aspect-[4/3] sm:aspect-[16/9] lg:aspect-[21/9]"
             />
             <div className="mt-5 grid gap-2 sm:grid-cols-[1fr_auto] sm:items-end sm:gap-8">
               <div>
                 <p className="font-brand text-[0.7rem] uppercase tracking-[0.22em] text-ink-500">
-                  {featured.category}
+                  {tr(featured.category)}
                 </p>
                 <h3 className="font-display mt-1 text-2xl font-semibold text-ink-950 sm:text-3xl">
-                  {featured.title}
+                  {tr(featured.title)}
                 </h3>
               </div>
               <p className="max-w-md text-sm leading-relaxed text-ink-600 sm:text-right">
-                {featured.description}
+                {tr(featured.description)}
               </p>
             </div>
           </Reveal>
         )}
 
         <Reveal className="mt-10" delay={100}>
-          <Carousel label="ნამუშევრები" perView="[--per-view:1.15] sm:[--per-view:2] lg:[--per-view:3]">
+          <Carousel label={tr("ნამუშევრები")} perView="[--per-view:1.15] sm:[--per-view:2] lg:[--per-view:3]">
             <VideoReel
               src={projectReel.src}
               poster={projectReel.poster}
-              caption={projectReel.caption}
+              caption={tr(projectReel.caption)}
               aspect="aspect-[4/5]"
               className="h-full rounded-2xl"
             />
