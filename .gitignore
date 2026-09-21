@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# отдельный проект (Telegram-бот) — не часть сайта, содержит .env и базы
+/telegram-bot/

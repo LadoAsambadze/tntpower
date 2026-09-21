@@ -1,26 +1,150 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+  შრიფტები — ლოკალურად, `public/fonts/`-დან (Google Fonts-ის სუბსეტები),
+  რომ dev/build ინტერნეტზე არ იყოს დამოკიდებული.
+  unicode-range იგივეა, რასაც Google Fonts იყენებს: ქართული + ლათინური.
+*/
+@font-face {
+  font-family: "Noto Sans Georgian";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/noto-sans-georgian-georgian.woff2") format("woff2");
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+@font-face {
+  font-family: "Noto Sans Georgian";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/noto-sans-georgian-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+    U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Noto Serif Georgian";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/noto-serif-georgian-georgian.woff2") format("woff2");
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+@font-face {
+  font-family: "Noto Serif Georgian";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/noto-serif-georgian-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+    U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/italiana-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+    U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/*
+  TNT POWER — დიზაინის ტოკენები
+  brand — ფირმის ყვითელი (#F2C524): ღილაკები, ზოლები, აქცენტები
+  ink   — თბილი მუქი ნეიტრალები (#28231F-დან): ტექსტი, მუქი ფონები, ხაზები
+*/
+@theme {
+  --color-brand-50: #fefbeb;
+  --color-brand-100: #fdf5c7;
+  --color-brand-200: #fbea8f;
+  --color-brand-300: #f7dc57;
+  --color-brand-400: #f5d033;
+  --color-brand-500: #f2c524;
+  --color-brand-600: #d4a812;
+  --color-brand-700: #a9840f;
+  --color-brand-800: #866813;
+  --color-brand-900: #6e5516;
+
+  --color-ink-50: #f8f6f3;
+  --color-ink-100: #f0ede8;
+  --color-ink-200: #e3ded7;
+  --color-ink-300: #ccc5bc;
+  --color-ink-400: #a69d93;
+  --color-ink-500: #7d746b;
+  --color-ink-600: #5c5450;
+  --color-ink-700: #433d39;
+  --color-ink-800: #2e2925;
+  --color-ink-900: #221e1b;
+  --color-ink-950: #151210;
+
+  /* თბილი „ქაღალდის" ფონი ღია სექციებისთვის — სუფთა თეთრის ნაცვლად */
+  --color-paper: #fcfbf9;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@theme {
+  --font-sans:
+    "Noto Sans Georgian", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Noto Serif Georgian", Sylfaen, Georgia, "Times New Roman", serif;
+  --font-brand: Italiana, "Noto Serif Georgian", Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink-900);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--color-brand-500);
+    color: var(--color-ink-950);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* მუქი სექციების ფონის ბადე */
+@utility bg-grid {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 85%);
+}
+
+/*
+  სქროლზე გამოჩენა (Reveal კომპონენტი).
+  `reveal-pending` კლასს კომპონენტი მხოლოდ ეკრანს ქვემოთ მყოფ ბლოკებს ადებს JS-ით —
+  ამიტომ SSR-ში და JS-ის გარეშე ყველაფერი თავიდანვე ჩანს.
+*/
+.reveal-pending {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal-pending.is-visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-pending {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ჰორიზონტალური სქროლის ზოლის დამალვა (სოციალური პოსტების ლენტა) */
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }

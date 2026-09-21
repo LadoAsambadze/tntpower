@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TNT POWER — ვებგვერდი
 
-## Getting Started
+სამშენებლო კომპანია TNT POWER-ის (ბათუმი) საიტი. Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4.
 
-First, run the development server:
+## გაშვება
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+გახსენით http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+პროდაქშენ ბილდი:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## სტრუქტურა
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+  app/                      # გვერდები (App Router)
+    page.tsx                # მთავარი
+    services/               # სერვისების სია და თითოეული სერვისი ([slug])
+    pricing/                # ფასები + კალკულატორი
+    about/                  # ჩვენ შესახებ
+    contact/                # კონტაქტი + ფორმა (actions.ts — სერვერ-აქშენი)
+    icon.svg                # favicon (ყვითელი კვადრატი „TNT")
+    sitemap.ts, robots.ts   # SEO
+  components/
+    brand/                  # BrandCircles (წრეების მოტივი), HeroVideo, VideoReel
+    layout/                 # Header, Footer, Logo (ვორდმარკი), FloatingContact
+    sections/               # Hero, ServicesGrid, ProblemsWeFix, Projects, PricingPreview, SocialPosts, ProcessSteps, Faq, CtaBanner …
+    forms/ContactForm.tsx   # საკონტაქტო ფორმა (useActionState)
+    seo/JsonLd.tsx          # schema.org სკრიპტის ჩასმა
+    ui/                     # Button, Container, SectionHeading, BrandCheck, Carousel, FaqList
+  data/
+    site.ts                 # ტელეფონი, ელფოსტა, სლოგანი, ნავიგაცია  ← შეცვალეთ რეალურით
+    services.ts             # 10 სერვისი, ფასები, აღწერები, ფოტოები
+    serviceFaq.ts           # კითხვა-პასუხი თითოეული სერვისისთვის (slug-ის მიხედვით)
+    problems.ts             # „იცნობთ ამ სიტუაციას?" — კონკრეტული პრობლემები → სერვისი
+    process.ts              # „როგორ ვმუშაობთ" ნაბიჯები, პრობლემა→შედეგი
+    faq.ts                  # ზოგადი და ფასების კითხვა-პასუხი
+    projects.ts             # ნამუშევრები, ვიდეო-რილი, სოციალური პოსტები
+  lib/jsonld.ts             # FAQPage / BreadcrumbList / Service სქემები
+public/
+  images/brand/             # ბრენდის ფოტოები და პოსტები
+  images/projects/          # ნამუშევრების კადრები (before/after)
+  video/                    # hero-renovation.mp4 (ფონი), tnt-reel.mp4 (პორტრეტული რილი), poster-ები
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## რა უნდა შეიცვალოს გაშვებამდე
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. `src/data/site.ts` — რეალური ტელეფონი, WhatsApp, ელფოსტა, სოციალური ბმულები, დომენი (`url`).
+2. `src/data/projects.ts` — ახალი ნამუშევრების ფოტოები (`public/images/projects/`), before/after წყვილები.
+3. `src/app/contact/actions.ts` — ფორმის განაცხადი ამჟამად მხოლოდ სერვერის ლოგში იწერება. აქ დაემატება ელფოსტა / Telegram / ბაზა.
 
-## Deploy on Vercel
+## ბრენდი
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ყვითელი: `#F2C524` (`brand-500`), თბილი მუქი: `#28231F`/`#151210` (`ink-800`/`ink-950`) — `src/app/globals.css`, `@theme` ბლოკი.
+- შრიფტები ლოკალურადაა ჩაშენებული — `public/fonts/` + `@font-face` `src/app/globals.css`-ში (Google Fonts-ის სუბსეტები, ინტერნეტი არ სჭირდება): Noto Sans Georgian (ტექსტი), Noto Serif Georgian (სათაურები, `font-display`), Italiana (ტაგლაინი „Renovate your house", `font-brand`).
+- მოტივები: ყვითელი ზოლი (header-ის ზემოთ, ბარათების მარჯვენა კიდე, footer), თხელი გადამკვეთი წრეები (`BrandCircles`), მუქი გადაფარვა ფოტოებზე.
